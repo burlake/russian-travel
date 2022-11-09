@@ -34,8 +34,10 @@
   line-height: 28px;
   text-decoration: none;
   list-style: none;
-  display: grid;
-  gap: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
 }
 
 .header__title{
