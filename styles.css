@@ -1,7 +1,73 @@
 
-.page {
+.page{
   margin: 0, auto;
-  font-family: 'Inter', sans-serif;
-  background-color: gray;
-  text-decoration: white;
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #2A2C2F;
+  text-decoration: #FFFFFF;
+  min-width: 1280px;
+  max-width: 1600px;
+}
+
+.logo{
+  width: 176px;
+  height: 52px;
+}
+
+.logo_place_header{
+  position: absolute;
+  top: 28px;
+  left: 48px;
+}
+
+.header__lang-link{
+  margin: 0;
+  padding: 0;
+  width: 30px;
+  height: 28px;
+  position: absolute;
+  left: 1155px;
+  right: 48px;
+  top: 46px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+
+  display: grid;
+  gap: 18px;
+}
+
+.header__title{
+  font-size: 102px;
+  font-weight: 600;
+  line-height: 96px;
+  max-width: 730px;
+  margin: 0 0 0 64px;
+  z-index: 3;
+}
+
+.header__subtitle{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  max-width: 388px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height:25px;
+  z-index: 3;
+}
+
+.header__main-illustration {
+  height: 608px;
+  width: 765px;
+  z-index: 1;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  object-fit: cover;
+}
+
+.header__illustration-title{
+
 }
