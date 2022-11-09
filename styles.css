@@ -31,7 +31,8 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
-
+  text-decoration: none;
+  list-style: none;
   display: grid;
   gap: 18px;
 }
