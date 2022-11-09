@@ -46,11 +46,14 @@
 }
 
 .header__title{
-  font-size: 102px;
-  font-weight: 600;
-  line-height: 96px;
-  max-width: 730px;
-  margin: 0 0 0 64px;
+  margin: 0, auto;
+  padding: 0;
+  padding-top: 136px;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+  max-width: 720px;
+  height: 200px;
   z-index: 3;
 }
 
@@ -58,25 +61,32 @@
   margin: 0;
   padding: 0;
   position: absolute;
-  bottom: 30px;
-  left: 64px;
-  max-width: 388px;
-  font-size: 18px;
-  font-weight: normal;
-  line-height:25px;
-  z-index: 3;
+  top: 32px;
+  bottom: 64px;
+  max-width: 640px;
+  height: 72px;
+  font-size: 30px;
+  font-weight: 400px;
+  line-height:36px;
 }
 
 .header__main-illustration {
-  height: 608px;
-  width: 765px;
-  z-index: 1;
+  margin: 0, auto;
+  height: 615px;
+  width: 984px;
   position: absolute;
-  bottom: 0px;
-  right: 0px;
   object-fit: cover;
 }
 
 .header__illustration-title{
-
+  margin: 0;
+  padding: 0;
+  height: 14px;
+  position: absolute;
+  top: 8px;
+  left: 148px;
+  max-width: 158px;
+  font-size: 10px;
+  font-weight: 400px;
+  line-height:14px;
 }
