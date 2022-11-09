@@ -19,23 +19,30 @@
   left: 48px;
 }
 
-.header__lang-link{
+.header__lang-links{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1;
+  position: absolute;
+  left: 1155px;
+  right: 48px;
+  top: 46px;
+  list-style: none;
+}
+
+.header__lang-links{
   margin: 0;
   padding: 0;
   text-decoration: #FFFFFF;
   width: 30px;
   height: 28px;
-  position: absolute;
-  left: 1155px;
-  right: 48px;
-  top: 46px;
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .header__title{
