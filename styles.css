@@ -125,13 +125,14 @@
 
 .gallary{
   margin: 0;
-  display: grid;
-  gap: 18px;
-  grid-template-rows: auto;
 
 }
 
 .cards__image{
+ 
+  display: grid;
+  gap: 18px;
+  grid-template-rows: auto;
   height: 213px;
   width: 284px;
 }
