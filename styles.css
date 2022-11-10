@@ -2,7 +2,7 @@
 .page{
   margin: 0, auto;
   font-family: 'Inter', Arial, sans-serif;
-  background-color: #2A2C2F;
+  background: #2A2C2F;
   min-width: 1280px;
   max-width: 1600px;
   z-index: -1;
