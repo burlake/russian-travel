@@ -5,17 +5,20 @@
   max-width: 1600px;
   font-family: 'Inter', Arial, sans-serif;
   background-color: #2A2C2F;
+  position:relative;
 }
 
 .logo{
   width: 176px;
   height: 52px;
+  z-index: 2;
 }
 
 .logo_place_header{
   position: absolute;
   top: 28px;
   left: 48px;
+  z-index: 2;
 }
 
 .header__lang-links{
@@ -31,6 +34,7 @@
   right: 48px;
   top: 46px;
   list-style: none;
+  z-index: 2;
 }
 
 .header__lang-links{
@@ -42,6 +46,7 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
+  z-index: 2;
 }
 
 .header__title{
@@ -53,7 +58,7 @@
   line-height: 100px;
   max-width: 720px;
   height: 200px;
-  z-index: 3;
+  z-index: 2;
 }
 
 .header__subtitle{
@@ -67,6 +72,7 @@
   font-size: 30px;
   font-weight: 400px;
   line-height:36px;
+  z-index: 2;
 }
 
 .header__main-illustration {
@@ -78,6 +84,7 @@ width: 984px;
 height: 615px;
 left: 148px;
 top: 504px;
+z-index: 2;
 
 background: url(./images/lead-polka.jpg);
 }
@@ -90,6 +97,7 @@ background: url(./images/lead-polka.jpg);
   font-size: 10px;
   font-weight: 400px;
   line-height:14px;
+  z-index: 2;
 }
 
 .two-columns__brief{
@@ -100,6 +108,7 @@ background: url(./images/lead-polka.jpg);
   font-size: 54px;
   font-weight: 900px;
   line-height:58px;
+  z-index: 2;
 }
 
 .two-columns__paragraph{
@@ -110,6 +119,7 @@ background: url(./images/lead-polka.jpg);
   font-size: 16px;
   font-weight: 400px;
   line-height:26px;
+  z-index: 2;
 }
 
 .two-columns__paragraph-list{
@@ -121,6 +131,7 @@ background: url(./images/lead-polka.jpg);
   font-weight: 400px;
   line-height:18px;
   list-style: none;
+  z-index: 2;
 }
 
 .two-columns__paragraph-list-bold{
@@ -135,12 +146,14 @@ background: url(./images/lead-polka.jpg);
   justify-content: center;
   gap: 18px;
   grid-template-rows: auto;
+  z-index: 2;
 
 }
 
 .cards__image{
   height: 213px;
   width: 284px;
+  z-index: 2;
 }
 
 .tobaikal__image{
@@ -149,4 +162,5 @@ background: url(./images/lead-polka.jpg);
   height: 740px;
   left: 48px;
   top: 6001px;
+  z-index: 2;
 }
