@@ -82,11 +82,55 @@
   margin: 0;
   padding: 0;
   height: 14px;
-  position: absolute;
-  top: 8px;
-  left: 148px;
   max-width: 158px;
   font-size: 10px;
   font-weight: 400px;
   line-height:14px;
+}
+
+.two-columns__brief{
+  margin: 0;
+  padding: 0;
+  height: 58px;
+  max-width: 690px;
+  font-size: 54px;
+  font-weight: 900px;
+  line-height:58px;
+}
+
+.two-columns__paragraph{
+  margin: 0;
+  padding: 0;
+  height: 208px;
+  max-width: 690px;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height:26px;
+}
+
+.two-columns__paragraph-list{
+  margin: 0;
+  padding: 0;
+  height: 90px;
+  max-width: 690px;
+  font-size: 12px;
+  font-weight: 400px;
+  line-height:18px;
+  list-style: none;
+}
+
+.two-columns__paragraph-list-bold{
+  font-weight: bold;
+}
+
+.gallary{
+  margin: 0;
+  display: grid;
+  gap: 18px;
+
+}
+
+.cards__image{
+  height: 213px;
+  width: 284px;
 }
