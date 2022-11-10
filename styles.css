@@ -72,10 +72,15 @@
 
 .header__main-illustration {
   margin: 0, auto;
-  height: 615px;
-  width: 984px;
   position: absolute;
   object-fit: cover;
+  position: absolute;
+width: 984px;
+height: 615px;
+left: 148px;
+top: 504px;
+
+background: url(./images/lead-polka.jpg);
 }
 
 .header__illustration-title{
@@ -137,4 +142,12 @@
 .cards__image{
   height: 213px;
   width: 284px;
+}
+
+.tobaikal__image{
+  position: absolute;
+  width: 1184px;
+  height: 740px;
+  left: 48px;
+  top: 6001px;
 }
