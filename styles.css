@@ -70,9 +70,6 @@
 .header__subtitle{
   margin: 0;
   padding: 0;
-  position: absolute;
-  top: 32px;
-  bottom: 64px;
   max-width: 640px;
   height: 72px;
   font-size: 30px;
