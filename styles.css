@@ -4,13 +4,14 @@
   min-width: 1280px;
   max-width: 1600px;
   font-family: 'Inter', Arial, sans-serif;
+  background-color: #2A2C2F;
+  z-index: -2;
 }
 
 .header{
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: #2A2C2F;
   position: relative;
   display: flex;
   align-items: center;
@@ -83,7 +84,7 @@
 width: 984px;
 height: 615px;
 display: flex;
-z-index: -1;
+z-index: 0;
 }
 
 .header__illustration-title{
