@@ -47,10 +47,8 @@
   font-weight: 400;
   line-height: 28px;
   color: #FFFFFF;
-  display: inline-grid;
-  grid-template-columns: 30px;
-  grid-template-rows: 28px;
-  gap:18px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header__title{
