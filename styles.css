@@ -51,7 +51,7 @@
   justify-content: space-between;
   position: relative;
   top: 46px;
-  left: 48px;
+  right: 48px;
 }
 
 .header__title{
