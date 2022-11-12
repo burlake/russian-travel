@@ -84,6 +84,7 @@ height: 615px;
 display: flex;
 z-index: 0;
 color: #FFFFFF;
+background-image: url("./images/lead-polka.jpg");
 }
 
 .header__illustration-title{
