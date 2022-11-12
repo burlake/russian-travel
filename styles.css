@@ -122,7 +122,8 @@ color: #FFFFFF;
   line-height: 58px;
   z-index: 2;
   color: #FFFFFF;
-  padding-top: 114px;
+  margin-top: 114px;
+  margin-left: 148px;
 }
 
 .two-columns__paragraph{
