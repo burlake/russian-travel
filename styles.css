@@ -111,6 +111,8 @@ color: #FFFFFF;
 }
 
 .two-columns__brief{
+  margin: 0 auto;
+  padding: 0;
   height: 58px;
   max-width: 690px;
   font-size: 54px;
@@ -118,12 +120,7 @@ color: #FFFFFF;
   line-height: 58px;
   z-index: 2;
   color: #FFFFFF;
-  margin: 0 auto;
-  padding: 0;
   padding-top: 114px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
 }
 
 .two-columns__paragraph{
