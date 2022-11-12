@@ -69,7 +69,8 @@
   height: 200px;
   color: #FFFFFF;
   display: flex;
-  justify-content: center;
+  align-items: center;
+
 }
 
 .header__subtitle{
@@ -82,7 +83,7 @@
   line-height:36px;
   color: #FFFFFF;
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
 
 .header__main-illustration {
