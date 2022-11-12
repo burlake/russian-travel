@@ -47,7 +47,7 @@
   font-weight: 400;
   line-height: 28px;
   color: #FFFFFF;
-  display: grid;
+  display: inline-grid;
   grid-template-columns: 30px;
   grid-template-rows: 28px;
   gap:18px;
