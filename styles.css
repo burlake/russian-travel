@@ -81,6 +81,7 @@
   color: #FFFFFF;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .header__subtitle{
@@ -94,6 +95,7 @@
   color: #FFFFFF;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .header__main-illustration {
