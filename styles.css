@@ -146,12 +146,35 @@ color: #FFFFFF;
   color: #FFFFFF;
 }
 
+.two-columns__main-text{
+  margin: 0;
+  padding: 0;
+  padding-top: 40px;
+  padding-left: 148px;
+  max-width: 690px;
+  height: 208px;
+  font-size: 12px;
+  font-weight: 400px;
+  line-height:18px;
+  list-style: none;
+  z-index: 2;
+  color: #FFFFFF;
+}
+
+.two-columns__paragraph-list{
+  margin: 0;
+  padding: 0;
+  padding-top: 33px;
+  padding-left: 148px;
+}
+
 .two-columns__paragraph-list-bold{
   font-weight: bold;
 }
 
 .gallary{
   margin: 0;
+  padding-top: 92px;
   display: grid;
   grid-template-columns: repeat(4, 284px);
   grid-template-rows: repeat(3, 213px);
