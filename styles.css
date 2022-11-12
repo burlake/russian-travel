@@ -72,17 +72,6 @@
   justify-content: center;
   text-align: center;
   display: flex;
-
-
-  
- 
-
-
-
-
-
-
-
 }
 
 .header__subtitle{
@@ -118,6 +107,7 @@ color: #FFFFFF;
   line-height:14px;
   z-index: 2;
   color: #FFFFFF;
+  margin-left: 148px;
 }
 
 .two-columns__brief{
