@@ -71,6 +71,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  padding-bottom: 32px;
 }
 
 .header__subtitle{
@@ -85,6 +86,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  padding-bottom: 64px;
 }
 
 .header__main-illustration {
