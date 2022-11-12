@@ -47,7 +47,7 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
-  text-decoration: #FFFFFF;
+  color: #FFFFFF;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -63,7 +63,7 @@
   line-height: 100px;
   max-width: 720px;
   height: 200px;
-  text-decoration: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .header__subtitle{
@@ -74,7 +74,7 @@
   font-size: 30px;
   font-weight: 400px;
   line-height:36px;
-  text-decoration: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .header__main-illustration {
@@ -126,7 +126,7 @@ z-index: 0;
   line-height:18px;
   list-style: none;
   z-index: 2;
-  text-decoration: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .two-columns__paragraph-list-bold{
