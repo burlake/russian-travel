@@ -145,7 +145,6 @@ color: #FFFFFF;
   z-index: 2;
   color: #FFFFFF;
   padding-top: 33px;
-  margin-bottom: 92px;
 }
 
 .two-columns__main-text{
@@ -166,6 +165,7 @@ color: #FFFFFF;
 .gallary{
   margin: 0;
   padding: 0;
+
   display: grid;
   grid-template-columns: repeat(4, 284px);
   grid-template-rows: repeat(3, 213px);
