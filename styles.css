@@ -49,6 +49,9 @@
   padding: 0;
   display: flex;
   justify-content: space-between;
+  position: relative;
+  top: 46px;
+  left: 48px;
 }
 
 .header__title{
