@@ -37,12 +37,10 @@
   left: 1155px;
   right: 48px;
   top: 46px;
-  
   display: grid;
   grid-template-columns: repeat(2, 30px);
   grid-template-rows: repeat(2, 28px);
   gap:18px;
-  z-index: 1;
 }
 
 .header__lang-link{
