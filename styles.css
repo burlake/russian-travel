@@ -33,16 +33,16 @@
 .header__lang-links{
   margin: 0;
   padding: 0;
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  z-index: 1;
-  position: absolute;
+  position: relative;
   left: 1155px;
   right: 48px;
   top: 46px;
-  list-style: none;
+  
+  display: grid;
+  grid-template-columns: repeat(2, 30px);
+  grid-template-rows: repeat(2, 28px);
+  gap:18px;
+  z-index: 1;
 }
 
 .header__lang-link{
