@@ -40,6 +40,10 @@
   color: #FFFFFF;
 }
 
+.header__lang-link:last-child{
+  padding-left: 18px;
+}
+
 .header__lang-links{
   margin: 0;
   padding: 0;
