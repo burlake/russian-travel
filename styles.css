@@ -119,15 +119,14 @@ z-index: 0;
 
 .two-columns__paragraph-list{
   margin: 0;
-  color: #ffffff;
   padding: 0;
-  height: 90px;
   max-width: 690px;
   font-size: 12px;
   font-weight: 400px;
   line-height:18px;
   list-style: none;
   z-index: 2;
+  text-decoration: #FFFFFF;
 }
 
 .two-columns__paragraph-list-bold{
