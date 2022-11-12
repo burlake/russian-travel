@@ -181,10 +181,9 @@ color: #FFFFFF;
 }
 
 .cards__image{
-  margin: 0;
-  padding: 0;
-  padding-top: 48px;
-  margin-left: 148px;
+  height: 213px;
+  width: 284px;
+  z-index: 2;
 }
 
 .tobaikal__image{
