@@ -144,6 +144,8 @@ color: #FFFFFF;
   list-style: none;
   z-index: 2;
   color: #FFFFFF;
+  padding-top: 33px;
+  margin-bottom: 92px;
 }
 
 .two-columns__main-text{
@@ -159,17 +161,6 @@ color: #FFFFFF;
   list-style: none;
   z-index: 2;
   color: #FFFFFF;
-}
-
-.two-columns__paragraph-list{
-  margin: 0;
-  padding: 0;
-  padding-top: 33px;
-  margin-bottom: 92px;
-}
-
-.two-columns__paragraph-list-bold{
-  font-weight: bold;
 }
 
 .gallary{
