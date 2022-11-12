@@ -22,6 +22,7 @@
   position: absolute;
   top: 28px;
   left: 48px;
+  z-index: 2;
 }
 
 .header__lang-links{
