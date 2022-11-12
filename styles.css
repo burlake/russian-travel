@@ -108,18 +108,20 @@ color: #FFFFFF;
   z-index: 2;
   color: #FFFFFF;
   margin-left: 148px;
+  margin-top: 8px;
 }
 
 .two-columns__brief{
-  margin: 0;
-  padding: 0;
   height: 58px;
   max-width: 690px;
   font-size: 54px;
   font-weight: 900px;
-  line-height:58px;
+  line-height: 58px;
   z-index: 2;
   color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  padding-top: 114px;
 }
 
 .two-columns__paragraph{
