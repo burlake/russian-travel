@@ -60,10 +60,11 @@
 
 .header__title{
   margin: 0, auto;
-  margin-top: 136px;
   padding: 0;
+  margin-top: 136px;
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 200px;
   max-width: 720px;
   font-size: 96px;
