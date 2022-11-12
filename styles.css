@@ -153,7 +153,7 @@ color: #FFFFFF;
   padding-top: 40px;
   margin-left: 148px;
   max-width: 690px;
-  height: 208px;
+  min-height: 208px;
   font-size: 12px;
   font-weight: 400px;
   line-height:18px;
