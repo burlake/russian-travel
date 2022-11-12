@@ -68,8 +68,7 @@
   max-width: 720px;
   height: 200px;
   color: #FFFFFF;
-  display: flex;
-  align-items: center;
+  text-align: center
 
 }
 
@@ -82,8 +81,7 @@
   font-weight: 400px;
   line-height:36px;
   color: #FFFFFF;
-  display: flex;
-  align-items: center;
+  text-align: center
 }
 
 .header__main-illustration {
