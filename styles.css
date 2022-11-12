@@ -48,8 +48,8 @@
   line-height: 28px;
   color: #FFFFFF;
   display: grid;
-  grid-template-columns: repeat(2, 30px);
-  grid-template-rows: repeat(2, 28px);
+  grid-template-columns: 30px;
+  grid-template-rows: 28px;
   gap:18px;
 }
 
