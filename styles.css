@@ -180,10 +180,14 @@ color: #FFFFFF;
 
 }
 
-.cards__image{
+.gallary__cards_image{
   height: 213px;
   width: 284px;
-  z-index: 2;
+}
+
+.places__cards_image{
+  height: 460px;
+  width: 460px;
 }
 
 .tobaikal__image{
