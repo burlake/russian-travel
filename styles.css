@@ -68,6 +68,8 @@
   max-width: 720px;
   height: 200px;
   color: #FFFFFF;
+  display: flex;
+  justify-content: center;
 }
 
 .header__subtitle{
@@ -79,6 +81,8 @@
   font-weight: 400px;
   line-height:36px;
   color: #FFFFFF;
+  display: flex;
+  justify-content: center;
 }
 
 .header__main-illustration {
