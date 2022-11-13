@@ -217,6 +217,7 @@ color: #FFFFFF;
   line-height:22px;
   list-style: none;
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 .place__link:hover{
