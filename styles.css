@@ -274,13 +274,14 @@ color: #FFFFFF;
 }
 
 .cover__title{
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   max-width: 560px;
   min-height: 152px;
   font-size: 72px;
   font-weight: 900px;
   line-height:76px;
+  font-style: normal;
   color: #FFFFFF;
   text-decoration: none;
   background-image: url(./images/cover-trains.jpg);
