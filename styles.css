@@ -270,6 +270,7 @@ color: #FFFFFF;
   position:relative;
   display: flex;
   justify-content: center;
+  margin-top: 92px;
 }
 
 .cover__image{
@@ -314,8 +315,8 @@ color: #FFFFFF;
     position: absolute;
     top: 429px;
     bottom: 245px;
-    display: flex;
-    justify-content: center;
+    left: 412px;
+    right: 412px;
     max-width: 360px;
     min-height: 66px;
     font-size: 18px;
