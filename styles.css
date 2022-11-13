@@ -217,14 +217,18 @@ color: #FFFFFF;
 
 .places-columns{
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 460px 484px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  /*display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
   grid-template-rows: auto;
   justify-content: center;
-  gap: 18px;
+  grid-gap: 18px;
   grid-auto-flow: column;
 
-  z-index: 2;
+  z-index: 2;*/
 
 
 }
