@@ -322,6 +322,13 @@ color: #FFFFFF;
   z-index: 2;
   }
   
+.footer{
+margin: 0 auto;
+padding: 0;
+display: flex;
+justify-content: space-between;
+}
+
 .footer__link{
   margin: 0;
   padding: 0;
