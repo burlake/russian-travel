@@ -262,11 +262,40 @@ color: #FFFFFF;
 
 }
 
-.tobaikal__image{
-  position: absolute;
+.cover__image{
+  margin: 0 auto;
   width: 1184px;
   height: 740px;
-  left: 48px;
-  top: 6001px;
-  z-index: 2;
 }
+
+.cover__image:hover{
+  opacity: 0.5;
+  transition: 1s linear 0.5s;
+}
+
+.cover__title{
+  margin: 0;
+  padding: 0;
+  max-width: 560px;
+  min-height: 152px;
+  font-size: 72px;
+  font-weight: 900px;
+  line-height:76px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.cover__title:hover{
+  text-decoration: underline;
+}
+
+  .cover__subtitle{
+    margin: 0;
+    padding: 0;
+    max-width: 360px;
+    min-height: 66px;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height:22px;
+    color: #FFFFFF;
+  }
