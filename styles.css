@@ -240,7 +240,7 @@ color: #FFFFFF;
 }
 
 place__paragraph:last-child {
-  padding-top: 26;
+  margin-top: 26px;
 }
 
 .place{
