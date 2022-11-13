@@ -217,9 +217,15 @@ color: #FFFFFF;
 
 .places-columns{
   margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 284px);
+  grid-template-rows: repeat(3, 213px);
+  justify-content: center;
+  gap: 18px;
+  grid-template-rows: auto;
+  z-index: 2;
+
+
 }
 
 .tobaikal__image{
