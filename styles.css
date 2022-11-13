@@ -237,7 +237,7 @@ color: #FFFFFF;
   font-weight: 400px;
   line-height: 29.34px;
   color: #FFFFFF;
-  text-indent: 26px;
+  break-inside: 26px;
 }
 
 .place{
