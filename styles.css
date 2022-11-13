@@ -239,7 +239,7 @@ color: #FFFFFF;
   color: #FFFFFF;
 }
 
-place__paragraph:last-child {
+.place__paragraph:last-child {
   margin-top: 26px;
 }
 
