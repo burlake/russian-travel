@@ -200,7 +200,6 @@ color: #FFFFFF;
   list-style: none;
   color: #AAAAAA;
   padding-bottom: 12px;
-  margin-top: 30px;
 }
 
 .place__link{
@@ -224,13 +223,11 @@ color: #FFFFFF;
   line-height: 76px;
   z-index: 2;
   color: #FFFFFF;
-  padding-bottom: 48px;
 }
 
 .place__paragraph{
   margin: 0;
   padding: 0;
-  margin-top: 48px;
   max-width: 484 px;
   font-size: 18px;
   font-weight: 400px;
