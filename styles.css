@@ -269,7 +269,6 @@ color: #FFFFFF;
   height: 740px;
   background:  #000000; 
   opacity: 0.5;
-  z-index: -1;
 }
 
 .cover__image:hover{
