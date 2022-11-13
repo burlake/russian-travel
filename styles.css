@@ -243,7 +243,7 @@ color: #FFFFFF;
   margin-top: 80px;
   display: grid;
   grid-template-rows: auto;
-  grid-template-rows: 460px 484px;
+  grid-template-columns: 460px 484px;
   justify-content: center;
   grid-gap: 18px;
   grid-auto-flow: column;
