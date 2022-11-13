@@ -244,7 +244,8 @@ color: #FFFFFF;
   grid-template-columns: 460px 484px;
   grid-template-rows: auto auto;
   justify-content: center;
-  grid-gap: 40px;
+  row-gap: 48px;
+  column-gap: 40px;
   grid-auto-flow: column;
   z-index: 2;
 
