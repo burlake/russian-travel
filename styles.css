@@ -262,8 +262,13 @@ color: #FFFFFF;
 
 }
 
+
+.cover{
+  display:inline-block;   
+  position:relative;
+}
+
 .cover__image{
-  position: relative;
   margin: 0 auto;
   width: 1184px;
   height: 740px;
@@ -280,6 +285,8 @@ color: #FFFFFF;
   margin: 0 auto;
   padding: 0;
   position: absolute;
+  display: flex;
+  align-content: center;
   top: 245px;
   bottom: 343px;
   left: 312px;
