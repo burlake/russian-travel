@@ -265,13 +265,18 @@ color: #FFFFFF;
 
 .cover{
   margin: 0 auto;
-  padding: 0;
-  display:inline-block;   
+  padding: 0;  
   position:relative;
   text-align: center;
-  display: flex;
-  justify-content: center;
+  /*display: flex;
+  justify-content: center;*/
   margin-top: 92px;
+  display: grid;
+
+  grid-template-columns: auto;
+  grid-template-rows: 560px 360px;
+  justify-content: center;
+  gap: 18px;
 }
 
 .cover__image{
@@ -322,4 +327,5 @@ color: #FFFFFF;
     font-weight: 400px;
     line-height:22px;
     color: #FFFFFF;
+    z-index: 2;
   }
