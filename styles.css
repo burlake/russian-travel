@@ -184,12 +184,12 @@ color: #FFFFFF;
   width: 284px;
 }
 
-.places__cards_image{
+.place__image{
   height: 460px;
   width: 460px;
 }
 
-.places-url{
+.place__url-heading{
   margin: 0;
   padding: 0;
   max-width: 456px;
@@ -200,10 +200,9 @@ color: #FFFFFF;
   list-style: none;
   color: #AAAAAA;
   padding-bottom: 12px;
-  justify-content: end;
 }
 
-.place-url{
+.place__link{
   margin: 0;
   padding: 0;
   max-width: 456px;
@@ -215,7 +214,7 @@ color: #FFFFFF;
   color: #FFFFFF;
 }
 
-.place-title{
+.place__title{
   margin: 0;
   padding: 0;
   height: 76px;
@@ -239,7 +238,7 @@ color: #FFFFFF;
   color: #FFFFFF;
 }
 
-.places-columns{
+.place{
   margin: 0 auto;
 display: grid;
   grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
