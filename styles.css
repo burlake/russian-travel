@@ -327,10 +327,7 @@ margin: 0 auto;
 padding: 0;
 display: flex;
 justify-content: space-between;
-margin-left: 48px;
-margin-right: 48px;
-margin-top: 92px;
-margin-bottom: 24px;
+margin: 94px 48px 24px 48px;
 }
 
 .footer__columns{
