@@ -264,8 +264,11 @@ color: #FFFFFF;
 
 
 .cover{
+  margin: 0 auto;
+  padding: 0;
   display:inline-block;   
   position:relative;
+
 }
 
 .cover__image{
