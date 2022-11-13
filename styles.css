@@ -334,7 +334,7 @@ margin-top: 92px;
 
 .footer__columns{
   display: inline-grid;
-  grid-template-columns: auto;
+  grid-template-rows: auto;
   grid-column-gap: 20px;
 }
 
