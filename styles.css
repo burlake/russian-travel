@@ -268,7 +268,8 @@ color: #FFFFFF;
   padding: 0;
   display:inline-block;   
   position:relative;
-
+  display: flex;
+  justify-content: center;
 }
 
 .cover__image{
@@ -303,10 +304,6 @@ color: #FFFFFF;
   color: #FFFFFF;
   justify-content: center;
   text-decoration: none;
-}
-
-.cover__title:hover{
-  text-decoration: underline;
 }
 
   .cover__subtitle{
