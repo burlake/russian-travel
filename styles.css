@@ -218,6 +218,10 @@ color: #FFFFFF;
   color: #FFFFFF;
 }
 
+.place__link:hover{
+  text-decoration: underline;
+}
+
 .place__title{
   margin: 0;
   padding: 0;
