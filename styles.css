@@ -269,7 +269,7 @@ color: #FFFFFF;
 }
 
 .cover__image:hover{
-  opacity: rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
   transition: 1s linear 0.5s;
 }
 
