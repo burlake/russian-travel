@@ -273,7 +273,7 @@ color: #FFFFFF;
 }
 
 .cover__image:hover{
-  opacity: 0.5;
+  opacity: 0;
   transition: 1s linear 0.5s;
 }
 
