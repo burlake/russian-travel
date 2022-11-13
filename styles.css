@@ -215,10 +215,10 @@ color: #FFFFFF;
 }
 
 .place__title{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   height: 76px;
-  max-width: 460px;
+  max-width: 399px;
   font-size: 72px;
   font-weight: 900px;
   line-height: 76px;
