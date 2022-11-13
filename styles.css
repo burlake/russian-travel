@@ -332,6 +332,12 @@ margin-right: 48px;
 margin-top: 92px;
 }
 
+.footer__columns{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 20px;
+}
+
 .footer__link{
   margin: 0;
   padding: 0;
