@@ -283,6 +283,7 @@ color: #FFFFFF;
   line-height:76px;
   color: #FFFFFF;
   text-decoration: none;
+  background-image: url(./images/cover-trains.jpg);
 }
 
 .cover__title:hover{
