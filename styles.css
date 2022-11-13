@@ -263,6 +263,7 @@ color: #FFFFFF;
 }
 
 .cover__image{
+  position: relative;
   margin: 0 auto;
   width: 1184px;
   height: 740px;
@@ -276,6 +277,11 @@ color: #FFFFFF;
 .cover__title{
   margin: 0 auto;
   padding: 0;
+  position: absolute;
+  top: 245px;
+  bottom: 343px;
+  left: 312px;
+  right: 312px;
   max-width: 560px;
   min-height: 152px;
   font-size: 72px;
@@ -283,8 +289,7 @@ color: #FFFFFF;
   line-height:76px;
   font-style: normal;
   color: #FFFFFF;
-  text-decoration: none;
-  background-image: url(./images/cover-trains.jpg);
+  justify-content: center;
 }
 
 .cover__title:hover{
