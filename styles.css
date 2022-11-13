@@ -237,7 +237,10 @@ color: #FFFFFF;
   font-weight: 400px;
   line-height: 29.34px;
   color: #FFFFFF;
-  break-inside: 26px;
+}
+
+place__paragraph:last-child {
+  padding-top: 26;
 }
 
 .place{
