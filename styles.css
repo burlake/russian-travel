@@ -219,7 +219,7 @@ color: #FFFFFF;
   margin: 0;
   padding: 0;
   height: 76px;
-  max-width: 460px;
+  min-width: 460px;
   font-size: 72px;
   font-weight: 900px;
   line-height: 76px;
