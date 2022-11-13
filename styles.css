@@ -233,10 +233,7 @@ color: #FFFFFF;
   font-weight: 400px;
   line-height: 29.34px;
   color: #FFFFFF;
-}
-
-.place__paragraph:last-child {
-  margin-bottom: 26px;
+  padding-bottom: 26px;
 }
 
 .place{
