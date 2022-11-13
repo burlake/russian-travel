@@ -272,6 +272,8 @@ color: #FFFFFF;
 }
 
 .cover__image{
+  display: flex;
+  align-items: center;
   margin: 0 auto;
   width: 1184px;
   height: 740px;
