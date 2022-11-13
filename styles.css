@@ -333,7 +333,7 @@ margin-top: 92px;
 }
 
 .footer__columns{
-  display: ;
+  display: grid;
   grid-template-columns: repeat(5, auto);
   gap: 20px;
 }
