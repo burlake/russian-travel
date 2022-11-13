@@ -200,6 +200,7 @@ color: #FFFFFF;
   list-style: none;
   color: #AAAAAA;
   padding-bottom: 12px;
+  justify-content: end;
 }
 
 .place-url{
@@ -212,7 +213,6 @@ color: #FFFFFF;
   line-height:22px;
   list-style: none;
   color: #FFFFFF;
-  padding-bottom: 48px;
 }
 
 .place-title{
