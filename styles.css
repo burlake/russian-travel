@@ -100,7 +100,7 @@
 }
 
 .header__illustration-title{
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   position: absolute;
   height: 14px;
