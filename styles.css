@@ -258,8 +258,6 @@ color: #FFFFFF;
   column-gap: 40px;
   grid-auto-flow: column;
   z-index: 2;
-
-
 }
 
 
@@ -271,15 +269,6 @@ color: #FFFFFF;
   /*display: flex;
   justify-content: center;*/
   margin-top: 92px;
-}
-
-.cover1{
-  display: grid;
-
-  grid-template-columns: auto;
-  grid-template-rows: 560px 360px;
-  justify-content: center;
-  gap: 32px;
 }
 
 .cover__image{
