@@ -89,10 +89,6 @@
   padding-bottom: 64px;
 }
 
-.header__illustration{
-  position: relative;
-}
-
 .header__main-illustration {
   margin: 0 auto;
   width: 984px;
@@ -105,7 +101,6 @@
 .header__illustration-title{
   margin: 0 auto;
   padding: 0;
-  position: absolute;
   height: 14px;
   max-width: 158px;
   font-size: 10px;
