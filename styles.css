@@ -299,6 +299,7 @@ color: #FFFFFF;
   font-style: normal;
   color: #FFFFFF;
   justify-content: center;
+  text-decoration: none;
 }
 
 .cover__title:hover{
