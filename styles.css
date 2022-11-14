@@ -111,8 +111,8 @@
   line-height:14px;
   z-index: 2;
   color: #FFFFFF;
-  margin-left: 148px;
   margin-top: 8px;
+  justify-content: flex-start;
 }
 
 .description-title{
