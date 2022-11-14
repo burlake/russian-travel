@@ -286,8 +286,6 @@
   box-sizing: border-box;
   min-height: 740px;
   max-width: 1184px;
-
-  background:  #000000; 
   opacity: 0.5;
   z-index: 1;
 }
