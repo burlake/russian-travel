@@ -290,6 +290,7 @@
   height: 740px;
   background:  #000000; 
   opacity: 0.5;
+  z-index: 1;
 }
 
 .cover__image:hover{
@@ -310,6 +311,7 @@
   color: #FFFFFF;
   justify-content: center;
   display: flex;
+  z-index: 2;
 }
 
 .cover__subtitle{
