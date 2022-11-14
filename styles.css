@@ -117,7 +117,7 @@
 .header__illustration-title_possition{
 margin: 0;
 display: grid;
-grid-template-columns: 615px 14px;
+grid-template-rows: 615px 14px;
 gap: 8px;
 
 }
