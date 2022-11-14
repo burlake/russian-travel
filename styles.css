@@ -102,7 +102,7 @@
 }
 
 .header__illustration-title{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   height: 14px;
   max-width: 158px;
@@ -115,7 +115,7 @@
 }
 
 .header__illustration-title_possition{
-  margin: 0;
+  margin: 0 auto;
   display: grid;
   grid-template-rows: 615px 14px;
   grid-template-columns: 984px;
