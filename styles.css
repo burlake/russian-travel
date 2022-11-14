@@ -311,7 +311,7 @@
   color: #FFFFFF;
   justify-content: center;
   display: flex;
-  z-index: 3;
+  z-index: 6;
   text-decoration: none;
 }
 
