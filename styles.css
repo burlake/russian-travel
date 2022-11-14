@@ -118,8 +118,9 @@
 margin: 0;
 display: grid;
 grid-template-rows: 615px 14px;
+grid-column: 984px;
 gap: 8px;
-
+justify-self: start;
 }
 
 .description-title{
