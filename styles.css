@@ -286,14 +286,14 @@
   box-sizing: border-box;
   min-height: 740px;
   max-width: 1184px;
-  background: rgba(0, 0, 0);
+  background-color: rgba(0, 0, 0);
   opacity: 0.4;
 }
 
 
 
 .cover:hover{
-  background: rgba(0, 0, 0);
+  background-color: rgba(0, 0, 0);
   opacity: 0.8;
   transition: 1s linear 0.5s;
 }
