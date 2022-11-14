@@ -275,11 +275,11 @@
 .cover{
   margin: 0 auto;
   padding: 0;  
-  position:relative;
   text-align: center;
-  /*display: flex;
-  justify-content: center;*/
   margin-top: 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .cover__image{
@@ -300,11 +300,7 @@
 .cover__title{
   margin: 0 auto;
   padding: 0;
-  position: absolute;
-  top: 245px;
-  bottom: 343px;
-  left: 312px;
-  right: 312px;
+  padding-top: 245px;
   max-width: 560px;
   min-height: 152px;
   font-size: 72px;
@@ -319,11 +315,7 @@
 .cover__subtitle{
   margin: 0 auto;
   padding: 0;
-  position: absolute;
-  top: 429px;
-  left: 50%;
-  display: flex;
-  align-self: center;
+  padding-top: 32px;
   max-width: 360px;
   min-height: 66px;
   font-size: 18px;
@@ -334,11 +326,11 @@
   }
   
 .footer{
-margin: 0 auto;
-padding: 0;
-display: flex;
-justify-content: space-between;
-padding: 94px 48px 24px 48px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 94px 48px 24px 48px;
 }
 
 .footer__columns{
