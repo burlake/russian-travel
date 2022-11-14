@@ -292,7 +292,7 @@
 
 
 .cover:hover{
-  background: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   transition: 1s linear 0.5s;
 }
 
