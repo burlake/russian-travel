@@ -117,6 +117,8 @@
 
 .header__illustration-title_possition{
 margin: 0;
+display: flex;
+justify-content: flex-start;
 }
 
 .description-title{
