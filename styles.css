@@ -275,7 +275,6 @@
 .cover{
   margin: 0 auto;
   padding: 0;  
-  position: relative;
   text-align: center;
   margin-top: 92px;
   display: flex;
@@ -314,6 +313,7 @@
   justify-content: center;
   display: flex;
   text-decoration: none;
+  position: relative;
   z-index: 1;
 }
 
@@ -329,6 +329,7 @@
   color: #FFFFFF;
   z-index: 3;
   text-decoration: none;
+  position: relative;
   z-index: 1;
   }
   
