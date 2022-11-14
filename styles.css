@@ -275,6 +275,7 @@
 .cover{
   margin: 0 auto;
   padding: 0;  
+  position: relative;
   text-align: center;
   margin-top: 92px;
   display: flex;
@@ -313,6 +314,7 @@
   justify-content: center;
   display: flex;
   text-decoration: none;
+  z-index: 1;
 }
 
 .cover__subtitle{
@@ -327,6 +329,7 @@
   color: #FFFFFF;
   z-index: 3;
   text-decoration: none;
+  z-index: 1;
   }
   
 .footer{
