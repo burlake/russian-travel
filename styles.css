@@ -111,16 +111,15 @@
   line-height:14px;
   z-index: 2;
   color: #FFFFFF;
-  margin-top: 8px;
   justify-content: flex-start;
 }
 
 .header__illustration-title_possition{
 margin: 0;
-display: flex;
-justify-content: flex-start;
-flex-direction: column;
-align-items: flex-start;
+display: grid;
+grid-template-columns: 615px 14px;
+gap: 8px;
+
 }
 
 .description-title{
