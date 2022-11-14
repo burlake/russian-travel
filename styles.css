@@ -314,9 +314,9 @@
   color: #FFFFFF;
   justify-content: center;
   display: flex;
-  text-decoration: none;
   position: relative;
-  z-index: 2;
+  z-index: 4;
+  text-decoration: none;
 }
 
 .cover__subtitle{
@@ -332,7 +332,7 @@
   z-index: 3;
   text-decoration: none;
   position: relative;
-  z-index: 2;
+  z-index: 4;
   }
   
 .footer{
