@@ -13,7 +13,7 @@
   height: 100%;
 }
 
-.header__logo-lang-positions{
+.header__logo-lang-position{
   display:flex;
   justify-content: space-between;
 }
@@ -58,6 +58,13 @@
   right: 48px;
 }
 
+.header__title-possition{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
 .header__title{
   margin: 0 auto;
   max-width: 720px;
@@ -68,8 +75,6 @@
   margin-top: 136px;
   height: 200px;
   color: #FFFFFF;
-  display: flex;
-  justify-content: center;
   text-align: center;
   padding-bottom: 32px;
 }
@@ -83,8 +88,6 @@
   font-weight: 400px;
   line-height:36px;
   color: #FFFFFF;
-  display: flex;
-  justify-content: center;
   text-align: center;
   padding-bottom: 64px;
 }
@@ -362,3 +365,8 @@ padding: 94px 48px 24px 48px;
   line-height:16px;
   color: #FFFFFF;
 }
+
+
+
+
+
