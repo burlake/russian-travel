@@ -294,6 +294,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
+  height: auto;
   background-color: rgba(0, 0, 0);
   opacity: 0.3;
   position: relative;
