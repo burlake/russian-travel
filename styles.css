@@ -292,7 +292,7 @@
 .cover__overlay{
   background-image: url(./images/cover-trains.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   box-sizing: border-box;
   height: auto;
   background-color: rgba(0, 0, 0);
