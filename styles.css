@@ -285,15 +285,18 @@
   justify-content: center;
   position: relative;
   z-index: 1;
+  min-height: 740px;
+  max-width: 1184px;
 }
 
 .cover__overlay{
   background-image: url(./images/cover-trains.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  background-position: center center;
+  background-origin: border-box;
+  object-fit: contain;
   box-sizing: border-box;
-  min-height: 740px;
-  max-width: 1184px;
   background-color: rgba(0, 0, 0);
   opacity: 0.3;
   position: relative;
