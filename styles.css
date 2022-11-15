@@ -1,10 +1,13 @@
 
 .page{
-  margin: 0 auto;
-  min-width: 1280px;
-  max-width: 1600px;
   font-family: 'Inter', Arial, sans-serif;
   background-color: #2A2C2F;
+}
+
+.page__container{
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 1600px;
 }
 
 .header{
