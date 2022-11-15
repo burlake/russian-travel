@@ -278,18 +278,20 @@
 .cover{
   margin: 0 auto;
   padding: 0;
+  position: relative;
+  z-index: 1;
   text-align: center;
   margin-top: 92px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
-  z-index: 1;
   min-height: 740px;
   max-width: 1184px;
 }
 
 .cover__overlay{
+  position: relative;
+  z-index: -1;
   background-image: url(./images/cover-trains.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -299,8 +301,6 @@
   box-sizing: border-box;
   background-color: rgba(0, 0, 0);
   opacity: 0.3;
-  position: relative;
-  z-index: -1;
   min-height: 740px;
   max-width: 1184px;
 }
@@ -325,9 +325,9 @@
   color: #FFFFFF;
   justify-content: center;
   display: flex;
-  position: relative;
-  z-index: 1;
   text-decoration: none;
+  position: relative;
+  z-index: 2;
 }
 
 .cover__subtitle{
@@ -343,7 +343,7 @@
   z-index: 3;
   text-decoration: none;
   position: relative;
-  z-index: 1;
+  z-index: 2;
   }
   
 .footer{
