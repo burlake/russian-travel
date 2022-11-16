@@ -311,8 +311,6 @@
   background-color: #2A2C2F;
   opacity: 0.8;
   transition: 1s linear 0.5s;
-  position: relative;
-  z-index: -1;
 }
 
 .cover__title{
