@@ -301,14 +301,13 @@
   background-origin: border-box;
   object-fit: contain;
   box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   min-height: 740px;
   max-width: 1184px;
 }
 
 .cover:hover{
-  background-color: rgba(0, 0, 0);
-  opacity: 0.4;
+  background-color: rgba(0, 0, 0, 0.3);
   transition: 1s linear 0.5s;
 
 }
