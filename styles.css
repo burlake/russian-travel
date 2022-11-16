@@ -294,8 +294,6 @@
   background-origin: border-box;
   object-fit: contain;
   box-sizing: border-box;
-  text-decoration: none;
-
 }
 
 .cover__overlay{
@@ -305,7 +303,7 @@
   opacity: 0.3;
   min-height: 740px;
   max-width: 1184px;
-  
+  text-decoration: none;
 }
 
 .cover:hover{
