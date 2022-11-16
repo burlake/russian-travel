@@ -329,7 +329,7 @@
   display: flex;
   text-decoration: none;
   position: relative;
-  z-index: 2;
+  z-index: 5;
 }
 
 .cover__subtitle{
@@ -345,7 +345,7 @@
   z-index: 3;
   text-decoration: none;
   position: relative;
-  z-index: 2;
+  z-index: 5;
   }
   
 .footer{
