@@ -293,6 +293,8 @@
   position: relative;
   z-index: -1;
   background-image: url(./images/cover-trains.jpg);
+  min-height: 740px;
+  max-width: 1184px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center center;
