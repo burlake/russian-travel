@@ -578,7 +578,7 @@
   font-size: 18px;
   font-weight: 400px;
   line-height: 29.34px;
-  color: #FFFFFF;
+  color: #FFFFFF; 
 }
 
 
@@ -615,6 +615,7 @@
 
 .place__paragraph_space:last-child{
   padding-bottom: 0px;
+  color: #FFFFFF; 
 }
 
 .place{
@@ -667,13 +668,6 @@
     grid-column: 1/span2;
     padding-left: 16px;
     padding-top: 32px;
-
-    /*grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column: 1;
-    grid-row: 2;*/
   }
 
   .place__link{
