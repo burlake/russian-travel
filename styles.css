@@ -457,15 +457,24 @@
 }
 
 @media screen and (max-width:1024px){
-  
+  .gallary__cards_image{
+    height: 255px;
+    width: 300px;
+  }
 }
 
 @media screen and (max-width:768px){
-  
+  .gallary__cards_image{
+    height: 264px;
+    width: 352px;
+  }
 }
 
 @media screen and (max-width:320px){
-  
+  .gallary__cards_image{
+    height: 216px;
+    width: 288px;
+  }
 }
 
 .place__url{
