@@ -687,6 +687,8 @@
     grid-row: 5;
     grid-column: 1/span2;
     padding-left: 16px;
+    grid-column-start: 1;
+    grid-row-start: 4;
   }
 }
 
