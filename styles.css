@@ -426,11 +426,14 @@
   gap: 18px;
   grid-template-rows: auto;
   z-index: 2;
-
 }
 
 @media screen and (max-width:1024px){
-  
+  .gallary{
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(4, 255px);
+    gap: 14px;
+  }
 }
 
 @media screen and (max-width:768px){
