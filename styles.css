@@ -640,7 +640,7 @@
 @media screen and (max-width:320px){
 
   .place{
-    margin-top: 52px;
+    margin-top: 14px;
     grid-template-columns: 320px;
     grid-template-rows: 6;
     column-gap: 0px;
@@ -651,7 +651,7 @@
     grid-row: 1;
     grid-column: 1/span2;
     padding-left: 16px;
-    padding-top: 64px;
+    padding-top: 50px;
   }
 
   .place__url-heading{
