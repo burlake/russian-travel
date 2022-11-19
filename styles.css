@@ -651,12 +651,14 @@
     grid-row: 1;
     grid-column: 1/span2;
     padding-left: 16px;
+    padding-top: 64px;
   }
 
   .place__url-heading{
     grid-row: 2;
     grid-column: 1/span2;
     padding-left: 16px;
+    padding-top: 32px;
 
     /*grid-column-start: 2;
     grid-column-end: 2;
@@ -670,6 +672,7 @@
     grid-row: 3;
     grid-column: 1/span2;
     padding-left: 16px;
+    padding-top: 12px;
   }
 
     
@@ -683,7 +686,7 @@
     grid-row: 5;
     grid-column: 1/span2;
     padding-left: 16px;
-
+    padding-top: 32px;
   }
 }
 
