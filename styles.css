@@ -296,11 +296,10 @@
   box-sizing: border-box;
 }
 
-.cover__overlay{
+.cover__link{
   position: relative;
   z-index: -1;
   background-color: #2A2C2F;
-  filter: brightness(40%);
   min-height: 740px;
   max-width: 1184px;
   text-decoration: none;
@@ -311,9 +310,6 @@
   opacity: 0.8;
   transition: 1s linear 0.5s;
 }
-
-
-
 
 .cover__title{
   margin: 0 auto;
@@ -331,6 +327,10 @@
   text-decoration: none;
   position: relative;
   z-index: 5;
+}
+
+cover__link::before {
+  z-index: 3;
 }
 
 .cover__subtitle{
