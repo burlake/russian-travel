@@ -442,7 +442,6 @@
     grid-template-columns: repeat(2, 352px);
     grid-template-rows: repeat(6, 264px);
     gap: 16px;
-    padding-bottom: 15px;
   }
 }
 
@@ -451,7 +450,6 @@
     grid-template-columns: repeat(1, 288px);
     grid-template-rows: repeat(12, 216px);
     gap: 12px;
-    padding-bottom: 14px;
   }
 }
 
@@ -569,7 +567,7 @@
     font-size: 32px;
     font-weight: 900px;
     line-height: 35px;
-    padding-top: 50px;
+    
   }
 }
 
@@ -615,8 +613,13 @@
   padding-bottom: 26px;
 }
 
+.place__paragraph_space:last-child{
+  padding-bottom: 0px;
+}
+
 .place{
   margin: 0 auto;
+  margin-top: 80px;
   display: grid;
   grid-template-columns: 460px 484px;
   grid-template-rows: auto auto;
@@ -636,6 +639,7 @@
 
 @media screen and (max-width:768px){
   .place{
+    margin-top: 73px;
     grid-template-columns: 340px 352px;
     column-gap: 28px;
   }
@@ -645,6 +649,7 @@
 @media screen and (max-width:320px){
 
   .place{
+    margin-top: 64px;
     grid-template-columns: 320px;
     grid-template-rows: 6;
     column-gap: 0px;
