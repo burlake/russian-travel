@@ -576,12 +576,8 @@
   font-weight: 400px;
   line-height: 29.34px;
   color: #FFFFFF;
-  padding-bottom: 26px;
 }
 
-.place__paragraph:last-child{
-  padding-bottom: 0px;
-}
 
 @media screen and (max-width:1024px){
   .place__paragraph{
@@ -606,6 +602,14 @@
     line-height: 26.08px;
     padding-bottom: 25px;
   }
+}
+
+.place__paragraph_space{
+  padding-bottom: 26px;
+}
+
+.place__paragraph_space:last-child{
+  padding-bottom: 0px;
 }
 
 .place{
@@ -685,6 +689,7 @@
   .place__paragraph{
     grid-row: 5;
     grid-column: 1/span2;
+    padding-left: 16px;
   }
 }
 
