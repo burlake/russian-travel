@@ -24,14 +24,34 @@
 .logo{
   width: 176px;
   height: 52px;
-}
-
-.logo_place_header{
   position: relative;
   top: 28px;
   left: 48px;
   z-index: 2;
 }
+
+@media screen and (max-width:1024px){
+  .logo{
+    width: 176px;
+    height: 52px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .logo{
+    width: 176px;
+    height: 52px;
+  }
+}
+
+@media screen and (max-width:320px){
+  .logo{
+    width: 142px;
+    height: 42px;
+  }
+}
+
+.logo_place_header{}
 
 .header__lang-link{
   margin: 0;
@@ -80,6 +100,18 @@
   color: #FFFFFF;
   text-align: center;
   padding-bottom: 32px;
+}
+
+@media screen and (max-width:1024px){
+  
+}
+
+@media screen and (max-width:768px){
+  
+}
+
+@media screen and (max-width:320px){
+  
 }
 
 .header__subtitle{
