@@ -418,6 +418,7 @@
 .gallary{
   margin: 0;
   padding: 0;
+  margin-bottom: 12px;
   display: grid;
   grid-template-columns: repeat(4, 284px);
   grid-template-rows: repeat(3, 213px);
