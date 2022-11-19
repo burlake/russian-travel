@@ -34,6 +34,10 @@
   .logo{
     width: 176px;
     height: 52px;
+    position: relative;
+    top: 28px;
+    left: 48px;
+    z-index: 2;
   }
 }
 
@@ -41,6 +45,10 @@
   .logo{
     width: 176px;
     height: 52px;
+    position: relative;
+    top: 28px;
+    left: 24px;
+    z-index: 2;
   }
 }
 
@@ -48,10 +56,12 @@
   .logo{
     width: 142px;
     height: 42px;
+    position: relative;
+    top: 16px;
+    left: 16px;
+    z-index: 2;
   }
 }
-
-.logo_place_header{}
 
 .header__lang-link{
   margin: 0;
