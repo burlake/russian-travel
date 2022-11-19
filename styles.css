@@ -482,11 +482,6 @@
   align-self: end;
 }
 
-.place__image{
-  height: 460px;
-  width: 460px;
-}
-
 .place__url-heading{
   margin: 0;
   padding: 0;
@@ -512,6 +507,31 @@
   color: #FFFFFF;
 }
 
+.place__image{
+  height: 460px;
+  width: 460px;
+}
+
+@media screen and (max-width:1024px){
+  .place__image{
+    height: 440px;
+    width: 440px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .place__image{
+    height: 340px;
+    width: 340px;
+  }
+}
+
+@media screen and (max-width:320px){
+  .place__image{
+    height: 320px;
+    width: 320px;
+  }
+}
 
 .place__title{
   margin: 0;
@@ -524,15 +544,67 @@
   color: #FFFFFF;
 }
 
+@media screen and (max-width:1024px){
+  .place__title{
+    min-width: 440px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .place__title{
+    min-width: 340px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width:320px){
+  .place__title{
+    min-width: 288px;
+    font-size: 32px;
+    font-weight: 900px;
+    line-height: 35px;
+  }
+}
+
 .place__paragraph{
   margin: 0;
   padding: 0;
-  max-width: 484 px;
+  max-width: 484px;
   font-size: 18px;
   font-weight: 400px;
   line-height: 29.34px;
   color: #FFFFFF;
   padding-bottom: 26px;
+}
+
+.place__paragraph:last-child{
+  padding-bottom: 0px;
+}
+
+@media screen and (max-width:1024px){
+  .place__paragraph{
+    max-width: 456px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .place__paragraph{
+    max-width: 352px;
+    font-size: 16px;
+    line-height: 26.08px;
+    padding-bottom: 25px;
+  }
+}
+
+@media screen and (max-width:320px){
+  .place__paragraph{
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 26.08px;
+    padding-bottom: 25px;
+  }
 }
 
 .place{
@@ -546,8 +618,39 @@
   row-gap: 48px;
   column-gap: 40px;
   grid-auto-flow: column;
-  z-index: 2;
 }
+
+@media screen and (max-width:1024px){
+  .place{
+    grid-template-columns: 440px 456px;
+    column-gap: 32px;
+  }
+  
+}
+
+@media screen and (max-width:768px){
+  .place{
+    margin-top: 76px;
+    grid-template-columns: 340px 352px;
+    column-gap: 28px;
+  }
+  
+}
+
+@media screen and (max-width:320px){
+  .place{
+    margin-top: 52px;
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 320px 288px;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    row-gap: 32px;
+    grid-auto-flow: row;
+  }
+  
+}
+
 
 
 .cover{
