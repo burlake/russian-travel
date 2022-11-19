@@ -640,18 +640,18 @@
 @media screen and (max-width:320px){
 
   .place{
-    margin-top: 14px;
+    margin-top: 52px;
     grid-template-columns: 320px;
     grid-template-rows: 6;
     column-gap: 0px;
-    row-gap: 0px;
+    row-gap: 25px;
   }
 
   .place__title{
     grid-row: 1;
     grid-column: 1/span2;
     padding-left: 16px;
-    padding-top: 50px;
+    padding-top: 64px;
   }
 
   .place__url-heading{
@@ -677,16 +677,15 @@
 
     
   .place__image{
-    grid-row: 2;
+    grid-row: 4;
     grid-column: 1/span2;
-    
-
   }
 
   .place__paragraph{
     grid-row: 5;
     grid-column: 1/span2;
     padding-left: 16px;
+    padding-top: 32px;
   }
 }
 
