@@ -419,6 +419,7 @@
 .gallery{
   margin: 0;
   padding: 0;
+  padding-bottom: 12px;
   display: grid;
   grid-template-columns: repeat(4, 284px);
   grid-template-rows: repeat(3, 213px);
@@ -441,6 +442,7 @@
     grid-template-columns: repeat(2, 352px);
     grid-template-rows: repeat(6, 264px);
     gap: 16px;
+    padding-bottom: 15px;
   }
 }
 
@@ -449,6 +451,7 @@
     grid-template-columns: repeat(1, 288px);
     grid-template-rows: repeat(12, 216px);
     gap: 12px;
+    padding-bottom: 14px;
   }
 }
 
@@ -536,6 +539,7 @@
 .place__title{
   margin: 0;
   padding: 0;
+  padding-top: 80;
   min-width: 460px;
   font-size: 72px;
   font-weight: 900px;
@@ -555,6 +559,7 @@
     min-width: 340px;
     font-size: 42px;
     line-height: 46px;
+    padding-top: 73px;
   }
 }
 
@@ -564,6 +569,7 @@
     font-size: 32px;
     font-weight: 900px;
     line-height: 35px;
+    padding-top: 50px;
   }
 }
 
