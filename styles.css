@@ -432,7 +432,7 @@
 @media screen and (max-width:1024px){
   .gallary{
     grid-template-columns: repeat(3, 300px);
-    grid-template-rows: repeat(4, 255px);
+    grid-template-rows: repeat(4, 225px);
     gap: 14px;
   }
 }
@@ -460,7 +460,7 @@
 
 @media screen and (max-width:1024px){
   .gallary__cards_image{
-    height: 255px;
+    height: 225px;
     width: 300px;
   }
 }
