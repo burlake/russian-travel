@@ -130,7 +130,7 @@
   font-size: 96px;
   font-weight: 900;
   text-align: center;
-  margin-top: 136px;
+  margin-top: 58px;
   height: 200px;
   color: #FFFFFF;
   text-align: center;
@@ -140,13 +140,13 @@
 
 @media screen and (max-width:1024px){
   .lead__title{
-    margin-top: 128px;
+    margin-top: 48px;
   }
 }
 
 @media screen and (max-width:768px){
   .lead__title{
-    margin-top: 128px;
+    margin-top: 48px;
   }
 }
 
@@ -159,7 +159,7 @@
     font-size: 40px;
     font-weight: 900;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 48px;
     color: #FFFFFF;
     text-align: center;
     padding-bottom: 16px;
