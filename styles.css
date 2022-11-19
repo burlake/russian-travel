@@ -300,12 +300,13 @@
   position: relative;
   z-index: -1;
   background-color: #2A2C2F;
+  opacity: 0.4;
   min-height: 740px;
   max-width: 1184px;
   text-decoration: none;
 }
 
-.cover:hover{
+.over__link:hover{
   background-color: #2A2C2F;
   opacity: 0.8;
   transition: 1s linear 0.5s;
@@ -329,7 +330,7 @@
   z-index: 5;
 }
 
-cover__link::before {
+cover__link::after {
   z-index: 3;
 }
 
