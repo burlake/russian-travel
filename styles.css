@@ -640,9 +640,42 @@
 @media screen and (max-width:320px){
   .place{
     margin-top: 52px;
-    grid-template-columns: 320px;
-    justify-content: center;
-    row-gap: 32px;
+    grid-template-columns: 320px 288px;
+    column-gap: 25px;
+
+    .place__title{
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+
+    .place__image{
+
+    }
+    .place__url{
+
+    }
+    .place__url-heading{
+
+    }
+    .place__link{
+
+    }
+      
+
+
+
+
+
+
+
+   place__title
+place__image
+place__url
+place__url-heading
+place__link
+
   }
   
 }
