@@ -653,6 +653,7 @@
 
   .place__url-heading{
     grid-row: 2;
+    grid-column: 1/span2;
 
     /*grid-column-start: 2;
     grid-column-end: 2;
@@ -664,16 +665,19 @@
 
   .place__link{
     grid-row: 3;
+    grid-column: 1/span2;
   }
 
     
   .place__image{
     grid-row: 4;
+    grid-column: 1/span2;
 
   }
 
   .place__paragraph{
     grid-row: 5;
+    grid-column: 1/span2;
 
   }
 }
