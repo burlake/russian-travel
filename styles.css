@@ -438,7 +438,7 @@
 @media screen and (max-width:768px){
   .gallary{
     grid-template-columns: repeat(2, 352px);
-    grid-template-rows: repeat(6, 255px);
+    grid-template-rows: repeat(6, 264px);
     gap: 16px;
   }
 }
