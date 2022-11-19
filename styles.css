@@ -641,7 +641,7 @@
   .place{
     margin-top: 52px;
     grid-template-columns: 1fr;
-    grid-template-rows: 4;
+    grid-template-rows: 6;
     column-gap: 25px;
   }
 
@@ -670,8 +670,8 @@
   .place__image{
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
   }
 
   .place__paragraph{
