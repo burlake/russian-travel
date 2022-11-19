@@ -315,7 +315,7 @@
   opacity: 0.3;
 }
 
-.  cover__link:hover{
+.cover__link:hover{
   background-color: #2A2C2F;
   opacity: 0.8;
   transition: 1s linear 0.5s;
