@@ -88,22 +88,24 @@
   margin: 0;
   padding: 0;
   height: 28px;
+  max-width: 29px;
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
   color: #FFFFFF;
 }
 
-@media screen and (max-width:1024px){
-  
-}
-
-@media screen and (max-width:768px){
-  
-}
-
 @media screen and (max-width:320px){
-  
+  .header__lang-link{
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    max-width: 22px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
 }
 
 .header__lang-link:last-child{
@@ -135,16 +137,33 @@
   padding-bottom: 32px;
 }
 
+
 @media screen and (max-width:1024px){
-  
+  .lead__title{
+    margin-top: 128px;
+  }
 }
 
 @media screen and (max-width:768px){
-  
+  .lead__title{
+    margin-top: 128px;
+  }
 }
 
 @media screen and (max-width:320px){
-  
+  .lead__title{
+    margin: 0 auto;
+    max-width: 288px;
+    height: 88px;
+    line-height: 44px;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 100px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 16px;
+  }
 }
 
 .lead__subtitle{
@@ -160,6 +179,33 @@
   padding-bottom: 64px;
 }
 
+@media screen and (max-width:1024px){
+  .lead__subtitle{
+    padding-bottom: 56px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .lead__subtitle{
+    padding-bottom: 56px;
+  }
+}
+
+@media screen and (max-width:320px){
+  .lead__subtitle{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 288px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height:20px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+}
+
 .lead__image{
   margin: 0 auto;
   width: 984px;
@@ -167,6 +213,27 @@
   display: flex;
   z-index: 0;
   color: #FFFFFF;
+}
+
+@media screen and (max-width:1024px){
+  .lead__image{
+    width: 984px;
+    height: 615px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .lead__image{
+    width: 768px;
+    height: 480px;
+  }
+}
+
+@media screen and (max-width:320px){
+  .lead__image{
+    width: 320px;
+    height: 200px;
+  }
 }
 
 .lead__caption{
@@ -182,6 +249,18 @@
   justify-content: flex-start;
 }
 
+@media screen and (max-width:1024px){
+  
+}
+
+@media screen and (max-width:768px){
+  margin-left: 24px;
+}
+
+@media screen and (max-width:320px){
+  margin-left: 16px;
+}
+
 .lead__image-caption_possition{
   margin: 0 auto;
   display: grid;
@@ -189,6 +268,18 @@
   grid-template-columns: 984px;
   gap: 8px;
   justify-self: start;
+}
+
+@media screen and (max-width:1024px){
+  
+}
+
+@media screen and (max-width:768px){
+  
+}
+
+@media screen and (max-width:320px){
+  
 }
 
 .description-title{
@@ -205,6 +296,18 @@
   color: #FFFFFF;
 }
 
+@media screen and (max-width:1024px){
+  
+}
+
+@media screen and (max-width:768px){
+  
+}
+
+@media screen and (max-width:320px){
+  
+}
+
 .description__paragraph{
   margin: 0;
   padding: 0;
@@ -214,6 +317,18 @@
   font-weight: 400px;
   line-height:26px;
   color: #FFFFFF;
+}
+
+@media screen and (max-width:1024px){
+  
+}
+
+@media screen and (max-width:768px){
+  
+}
+
+@media screen and (max-width:320px){
+  
 }
 
 .description__paragraph-list{
@@ -230,6 +345,17 @@
   padding-bottom: 92px;
 }
 
+@media screen and (max-width:1024px){
+  
+}
+
+@media screen and (max-width:768px){
+  
+}
+
+@media screen and (max-width:320px){
+  
+}
 .description__main-text{
   margin: 0;
   padding: 0;
@@ -245,6 +371,17 @@
   color: #FFFFFF;
 }
 
+@media screen and (max-width:1024px){
+  
+}
+
+@media screen and (max-width:768px){
+  
+}
+
+@media screen and (max-width:320px){
+  
+}
 .gallary{
   margin: 0;
   padding: 0;
@@ -259,9 +396,33 @@
 
 }
 
+@media screen and (max-width:1024px){
+  
+}
+
+@media screen and (max-width:768px){
+  
+}
+
+@media screen and (max-width:320px){
+  
+}
+
 .gallary__cards_image{
   height: 213px;
   width: 284px;
+}
+
+@media screen and (max-width:1024px){
+  
+}
+
+@media screen and (max-width:768px){
+  
+}
+
+@media screen and (max-width:320px){
+  
 }
 
 .place__url{
@@ -455,6 +616,22 @@
   font-weight: 400px;
   line-height:16px;
   color: #FFFFFF;
+}
+
+
+
+
+
+@media screen and (max-width:1024px){
+  
+}
+
+@media screen and (max-width:768px){
+  
+}
+
+@media screen and (max-width:320px){
+  
 }
 
 
