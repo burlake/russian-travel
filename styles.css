@@ -678,7 +678,7 @@
   .place__image{
     grid-row: 4;
     grid-column: 1/span2;
-    grid-column-start: 3;
+    grid-column-start: 1;
     grid-row-start: 3;
 
   }
