@@ -644,7 +644,6 @@
     grid-template-columns: 1fr;
     grid-template-rows: 6;
     column-gap: 25px;
-    grid-auto-flow: row;
   }
 
   .place__title{
