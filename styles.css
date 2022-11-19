@@ -11,15 +11,11 @@
 }
 
 .header{
-
-  height: 100%;
-}
-
-.header__logo-lang-position{
-    margin: 0;
+  margin: 0;
   padding: 0;
   display:flex;
   justify-content: space-between;
+  height: 100%;
 }
 
 .logo{
