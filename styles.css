@@ -680,13 +680,13 @@
     grid-row: 4;
     grid-column: 1/span2;
 
+
   }
 
   .place__paragraph{
     grid-row: 5;
     grid-column: 1/span2;
     padding-left: 16px;
-    padding-top: 32px;
   }
 }
 
