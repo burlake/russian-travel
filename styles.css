@@ -615,10 +615,6 @@
   padding-bottom: 26px;
 }
 
-.place__paragraph_space:last-child{
-  padding-bottom: 0px;
-}
-
 .place{
   margin: 0 auto;
   display: grid;
