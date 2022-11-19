@@ -476,6 +476,7 @@
   .gallary__cards_image{
     height: 216px;
     width: 288px;
+    object-fit: contain;
   }
 }
 
