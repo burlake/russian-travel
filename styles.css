@@ -646,7 +646,6 @@
 @media screen and (max-width:320px){
 
   .place{
-    margin-top: 52px;
     grid-template-columns: 320px;
     grid-template-rows: 6;
     column-gap: 0px;
