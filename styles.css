@@ -297,16 +297,25 @@
 }
 
 .cover__link{
-  position: relative;
-  z-index: -1;
-  background-color: #2A2C2F;
-  opacity: 0.4;
   min-height: 740px;
   max-width: 1184px;
   text-decoration: none;
 }
 
-.over__link:hover{
+
+.cover__link::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+}
+
+.  cover__link:hover{
   background-color: #2A2C2F;
   opacity: 0.8;
   transition: 1s linear 0.5s;
@@ -328,10 +337,6 @@
   text-decoration: none;
   position: relative;
   z-index: 5;
-}
-
-cover__link::after {
-  z-index: 3;
 }
 
 .cover__subtitle{
