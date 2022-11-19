@@ -78,8 +78,8 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  top: 46px;
-  right: 48px;
+  padding-top: 46px;
+  padding-right: 48px;
 }
 
 .lead{
