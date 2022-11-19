@@ -11,12 +11,13 @@
 }
 
 .header{
-  margin: 0;
-  padding: 0;
+
   height: 100%;
 }
 
 .header__logo-lang-position{
+    margin: 0;
+  padding: 0;
   display:flex;
   justify-content: space-between;
 }
@@ -84,14 +85,14 @@
   right: 48px;
 }
 
-.header__title-possition{
+.lead{
   display: flex;
   flex-direction: column;
   justify-content: center;
 
 }
 
-.header__title{
+.lead__title{
   margin: 0 auto;
   max-width: 720px;
   line-height: 100px;
@@ -117,7 +118,7 @@
   
 }
 
-.header__subtitle{
+.lead__subtitle{
   margin: 0 auto;
   padding: 0;
   max-width: 640px;
@@ -130,7 +131,7 @@
   padding-bottom: 64px;
 }
 
-.header__main-illustration {
+.lead__image{
   margin: 0 auto;
   width: 984px;
   height: 615px;
@@ -139,7 +140,7 @@
   color: #FFFFFF;
 }
 
-.header__illustration-title{
+.lead__caption{
   margin: 0;
   padding: 0;
   height: 14px;
@@ -152,7 +153,7 @@
   justify-content: flex-start;
 }
 
-.header__illustration-title_possition{
+.lead__image-caption_possition{
   margin: 0 auto;
   display: grid;
   grid-template-rows: 615px 14px;
