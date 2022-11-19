@@ -21,13 +21,15 @@
 }
 
 @media screen and (max-width:768px){
-  padding-top: 28px;
-  padding-left: 24px;
+  .header{
+    padding-top: 28px;
+    padding-left: 24px;
 }
 
 @media screen and (max-width:320px){
-  padding-top: 16px;
-  padding-left: 16px;
+  .header{
+    padding-top: 16px;
+    padding-left: 16px;
 }
 
 .logo{
