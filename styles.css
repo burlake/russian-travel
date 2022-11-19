@@ -641,7 +641,7 @@
 
   .place{
     margin-top: 52px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 320px;
     grid-template-rows: 6;
     column-gap: 25px;
   }
