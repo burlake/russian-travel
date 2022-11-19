@@ -419,7 +419,6 @@
 .gallery{
   margin: 0;
   padding: 0;
-  padding-bottom: 12px;
   display: grid;
   grid-template-columns: repeat(4, 284px);
   grid-template-rows: repeat(3, 213px);
@@ -449,6 +448,7 @@
   .gallery{
     grid-template-columns: repeat(1, 288px);
     grid-template-rows: repeat(12, 216px);
+    gap: 12px;
   }
 }
 
