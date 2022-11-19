@@ -672,13 +672,13 @@
     grid-column: 1/span2;
     padding-left: 16px;
     padding-top: 12px;
-    margin-bottom: 32px;
   }
 
     
   .place__image{
     grid-row: 4;
     grid-column: 1/span2;
+    padding-top: 32px;
   }
 
   .place__paragraph{
