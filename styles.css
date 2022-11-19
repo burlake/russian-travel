@@ -611,7 +611,6 @@
   margin: 0 auto;
   margin-top: 80px;
   display: grid;
-  grid-template-rows: 2;
   grid-template-columns: 460px 484px;
   grid-template-rows: auto auto;
   justify-content: center;
@@ -640,10 +639,8 @@
 @media screen and (max-width:320px){
   .place{
     margin-top: 52px;
-    display: grid;
-    grid-template-rows: 1;
-    grid-template-columns: 320px 288px;
-    grid-template-rows: auto auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 320px 288px;
     justify-content: center;
     row-gap: 32px;
   }
