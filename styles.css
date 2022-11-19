@@ -274,8 +274,6 @@
 
 @media screen and (max-width:1024px){
   .lead__image-caption_possition{
-    margin: 0 auto;
-    display: grid;
     grid-template-rows: 580px 14px;
     grid-template-columns: 928px;
   }
@@ -283,8 +281,6 @@
 
 @media screen and (max-width:768px){
   .lead__image-caption_possition{
-    margin: 0 auto;
-    display: grid;
     grid-template-rows: 480px 14px;
     grid-template-columns: 768px;
   }
@@ -292,8 +288,6 @@
 
 @media screen and (max-width:320px){
   .lead__image-caption_possition{
-    margin: 0 auto;
-    display: grid;
     grid-template-rows: 200px 14px;
     grid-template-columns: 320px;
   }
