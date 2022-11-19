@@ -651,7 +651,7 @@
     grid-row: 1;
     grid-column: 1/span2;
     padding-left: 16px;
-    padding-top: 64px;
+    padding-top: 12px;
   }
 
   .place__url-heading{
