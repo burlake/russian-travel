@@ -642,6 +642,7 @@
     margin-top: 52px;
     grid-template-columns: 320px 288px;
     column-gap: 25px;
+  }
 
     .place__title{
       grid-column-start: 1;
