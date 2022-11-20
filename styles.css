@@ -15,7 +15,7 @@
   padding: 0;
   display:flex;
   justify-content: space-between;
-  height: 100%;
+  min-height: 100%;
   padding-top: 28px;
   padding-left: 48px;
 }
@@ -35,28 +35,28 @@
 }
 
 .logo{
-  width: 176px;
-  height: 52px;
+  max-width: 176px;
+  min-height: 52px;
 }
 
 @media screen and (max-width:1024px){
   .logo{
-    width: 176px;
-    height: 52px;
+    max-width: 176px;
+    min-height: 52px;
   }
 }
 
 @media screen and (max-width:768px){
   .logo{
-    width: 176px;
-    height: 52px;
+    max-width: 176px;
+    min-height: 52px;
   }
 }
 
 @media screen and (max-width:320px){
   .logo{
-    width: 142px;
-    height: 42px;
+    max-width: 142px;
+    min-height: 42px;
   }
 }
 
@@ -87,7 +87,7 @@
 .header__lang-link{
   margin: 0;
   padding: 0;
-  height: 28px;
+  min-height: 28px;
   max-width: 29px;
   font-size: 24px;
   font-weight: 400;
@@ -99,7 +99,7 @@
   .header__lang-link{
     margin: 0;
     padding: 0;
-    height: 20px;
+    min-height: 20px;
     max-width: 22px;
     font-size: 18px;
     font-weight: 400;
@@ -131,7 +131,7 @@
   font-weight: 900;
   text-align: center;
   margin-top: 58px;
-  height: 200px;
+  min-height: 200px;
   color: #FFFFFF;
   text-align: center;
   padding-bottom: 32px;
@@ -154,7 +154,7 @@
   .lead__title{
     margin: 0 auto;
     max-width: 288px;
-    height: 88px;
+    min-height: 88px;
     line-height: 44px;
     font-size: 40px;
     font-weight: 900;
@@ -170,7 +170,7 @@
   margin: 0 auto;
   padding: 0;
   max-width: 640px;
-  height: 72px;
+  min-height: 72px;
   font-size: 30px;
   font-weight: 400px;
   line-height:36px;
@@ -209,7 +209,7 @@
 .lead__image{
   margin: 0 auto;
   width: 984px;
-  height: 615px;
+  min-height: 615px;
   display: flex;
   z-index: 0;
   color: #FFFFFF;
@@ -217,29 +217,29 @@
 
 @media screen and (max-width:1024px){
   .lead__image{
-    width: 928px;
-    height: 580px;
+    max-width: 928px;
+    min-height: 580px;
   }
 }
 
 @media screen and (max-width:768px){
   .lead__image{
-    width: 768px;
-    height: 480px;
+    max-width: 768px;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width:320px){
   .lead__image{
-    width: 320px;
-    height: 200px;
+    max-width: 320px;
+    min-height: 200px;
   }
 }
 
 .lead__caption{
   margin: 0;
   padding: 0;
-  height: 14px;
+  min-height: 14px;
   max-width: 158px;
   font-size: 10px;
   font-weight: 400px;
@@ -299,7 +299,7 @@
   padding: 0;
   margin-top: 92px;
   margin-left: 148px;
-  height: 58px;
+  min-height: 58px;
   max-width: 690px;
   font-size: 54px;
   font-weight: 900px;
@@ -318,7 +318,7 @@
   .description-title{
     margin-top: 88px;
     margin-left: 24px;
-    height: 58px;
+    min-height: 58px;
     max-width: 720px;
   }
 }
@@ -327,7 +327,7 @@
   .description-title{
     margin-top: 64px;
     margin-left: 16px;
-    height: 70px;
+    min-height: 70px;
     max-width: 240px;
     font-size: 32px;
     font-weight: 900px;
@@ -338,7 +338,7 @@
 .description__paragraph{
   margin: 0;
   padding: 0;
-  height: 208px;
+  min-height: 208px;
   max-width: 690px;
   font-size: 16px;
   font-weight: 400px;
@@ -348,14 +348,14 @@
 
 @media screen and (max-width:768px){
   .description__paragraph{
-    height: 208px;
+    min-height: 208px;
     max-width: 720px;
   }
 }
 
 @media screen and (max-width:320px){
   .description__paragraph{
-    height: 520px;
+    min-height: 520px;
     max-width: 288px;
   }
 }
@@ -455,28 +455,28 @@
 }
 
 .gallery__cards_image{
-  height: 213px;
-  width: 284px;
+  min-height: 213px;
+  max-width: 284px;
 }
 
 @media screen and (max-width:1024px){
   .gallery__cards_image{
-    height: 225px;
-    width: 300px;
+    min-height: 225px;
+    max-width: 300px;
   }
 }
 
 @media screen and (max-width:768px){
   .gallery__cards_image{
-    height: 264px;
-    width: 352px;
+    min-height: 264px;
+    max-width: 352px;
   }
 }
 
 @media screen and (max-width:320px){
   .gallery__cards_image{
-    height: 216px;
-    width: 288px;
+    min-height: 216px;
+    max-width: 288px;
   }
 }
 
@@ -510,28 +510,28 @@
 }
 
 .place__image{
-  height: 460px;
-  width: 460px;
+  min-height: 460px;
+  max-width: 460px;
 }
 
 @media screen and (max-width:1024px){
   .place__image{
-    height: 440px;
-    width: 440px;
+    min-height: 440px;
+    max-width: 440px;
   }
 }
 
 @media screen and (max-width:768px){
   .place__image{
-    height: 340px;
-    width: 340px;
+    min-height: 340px;
+    max-width: 340px;
   }
 }
 
 @media screen and (max-width:320px){
   .place__image{
-    height: 320px;
-    width: 320px;
+    min-height: 320px;
+    max-width: 320px;
   }
 }
 
@@ -701,8 +701,6 @@
     padding-left: 16px;
   }
 }
-
-
 
 .cover{
   margin: 0 auto;
