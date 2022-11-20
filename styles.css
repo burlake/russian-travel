@@ -208,7 +208,7 @@
 
 .lead__image{
   margin: 0 auto;
-  width: 984px;
+  max-width: 984px;
   min-height: 615px;
   display: flex;
   z-index: 0;
@@ -539,7 +539,7 @@
   margin: 0;
   padding: 0;
   padding-top: 80px;
-  min-width: 460px;
+  max-width: 460px;
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
@@ -549,13 +549,13 @@
 
 @media screen and (max-width:1024px){
   .place__title{
-    min-width: 440px;
+    max-width: 440px;
   }
 }
 
 @media screen and (max-width:768px){
   .place__title{
-    min-width: 340px;
+    max-width: 340px;
     font-size: 42px;
     line-height: 46px;
   }
@@ -563,7 +563,7 @@
 
 @media screen and (max-width:320px){
   .place__title{
-    min-width: 288px;
+    max-width: 288px;
     font-size: 32px;
     font-weight: 900;
     line-height: 35px;
