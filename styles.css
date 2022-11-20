@@ -213,6 +213,7 @@
   display: flex;
   z-index: 0;
   color: #FFFFFF;
+  overflow-x:hidden;
 }
 
 @media screen and (max-width:1024px){
@@ -457,6 +458,7 @@
 .gallery__cards_image{
   min-height: 213px;
   max-width: 284px;
+  overflow-x:hidden;
 }
 
 @media screen and (max-width:1024px){
@@ -512,6 +514,7 @@
 .place__image{
   min-height: 460px;
   max-width: 460px;
+  overflow-x:hidden;
 }
 
 @media screen and (max-width:1024px){
@@ -720,6 +723,7 @@
   background-origin: border-box;
   object-fit: contain;
   box-sizing: border-box;
+  overflow-x:hidden;
 }
 
 @media screen and (max-width:1024px){
