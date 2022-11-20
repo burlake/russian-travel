@@ -874,6 +874,11 @@
   .footer{
     padding-top: 64px;
     padding-left: 16px;
+    grid-template-rows: 24px;
+    grid-template-columns:100%;
+    grid-row-gap:48px;
+    }
+
   }
 }
 
