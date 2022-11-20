@@ -875,8 +875,6 @@
     padding-top: 64px;
     padding-left: 16px;
     flex-direction: column;
-    }
-
   }
 }
 
@@ -890,7 +888,7 @@
 @media screen and (max-width:320px){
   .footer__columns{
     grid-template-rows: 24px;
-    grid-template-columns:158px;
+    grid-template-columns:100%;
     grid-row-gap:32px;
   }
 }
