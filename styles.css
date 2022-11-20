@@ -598,6 +598,8 @@
 }
 
 .place__paragraph_font{
+  margin: 0;
+  padding: 0;
   font-size: 18px;
   font-weight: 400px;
   line-height: 29.34px;
