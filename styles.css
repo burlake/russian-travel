@@ -450,6 +450,7 @@
     grid-template-columns: repeat(1, 288px);
     grid-template-rows: repeat(12, 216px);
     gap: 12px;
+    padding-bottom: 0px;
   }
 }
 
@@ -593,7 +594,6 @@
   .place__paragraph{
     max-width: 288px;
     padding-bottom: 25px;
-    padding-left: 16px;
   }
 }
 
