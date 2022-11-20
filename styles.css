@@ -886,8 +886,8 @@
 
 @media screen and (max-width:320px){
   .footer__columns{
-    grid-template-columns: 24px 24px 24px 24px 24px;
-    row-gap :32px;
+    grid-template-rows: 24px 24px 24px 24px 24px;
+    grid-row-gap:32px;
   }
 }
 
