@@ -648,7 +648,6 @@
     grid-template-rows: 6;
     column-gap: 0px;
     row-gap: 0px;
-    padding-left: 16px;
   }
 
   .place__title{
@@ -677,12 +676,12 @@
     grid-column: 1/span2;
     padding-top: 32px;
     padding-bottom: 32px;
-    padding-left: 0px;
   }
 
   .place__paragraph{
     grid-row: 5;
     grid-column: 1/span2;
+    padding-left: 16px;
   }
 }
 
