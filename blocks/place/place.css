@@ -8,6 +8,7 @@
   row-gap: 48px;
   column-gap: 40px;
   grid-auto-flow: column;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 1024px) {
