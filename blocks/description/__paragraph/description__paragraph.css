@@ -1,0 +1,24 @@
+.description__paragraph {
+  margin: 0;
+  padding: 0;
+  min-height: 208px;
+  max-width: 690px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .description__paragraph {
+    min-height: 208px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .description__paragraph {
+    min-height: 520px;
+    max-width: 288px;
+  }
+}
