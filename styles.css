@@ -481,8 +481,6 @@
   }
 }
 
-*/
-
 .place{
   margin: 0 auto;
   margin-top: 80px;
@@ -519,10 +517,6 @@
     row-gap: 0px;
   }
 }
-
-  */
-
-
 
 .place__url{
   align-self: end;
@@ -616,7 +610,6 @@
   }
 }
 
-
 .place__paragraph{
   margin: 0;
   padding: 0;
@@ -673,6 +666,7 @@
   padding: 0;
   padding-bottom: 26px;
 }
+
 .place__title{
     grid-row: 1;
     grid-column: 1/span2;
@@ -693,7 +687,6 @@
     padding-top: 12px;
   }
 
-    
   .place__image{
     grid-row: 4;
     grid-column: 1/span2;
@@ -708,7 +701,7 @@
   }
 }
 
-
+*/
 
 
 
