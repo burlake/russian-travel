@@ -297,7 +297,6 @@
 .description{
   margin: 0;
   padding: 0;
-  margin-top: 92px;
 }
 
 
@@ -305,7 +304,7 @@
 
 
 .description__title{
-
+  margin-top: 92px;
   margin-left: 148px;
   min-height: 58px;
   max-width: 690px;
