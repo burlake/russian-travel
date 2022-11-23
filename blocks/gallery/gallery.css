@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(4, 284px);
-  grid-template-rows: repeat(3, 213px);
+  grid-template-columns: repeat(4, 25wv);
+  grid-template-rows: repeat(3, 33hv);
   justify-content: center;
   gap: 18px;
   z-index: 2;
