@@ -1,7 +1,5 @@
 .page{
   font-family: 'Inter', Arial, sans-serif;
-  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Regular.woff);
+  src: url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
   background-color: #2A2C2F;
-  width: 100%;
-  font-weight: normal;
 }
