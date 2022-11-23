@@ -7,6 +7,8 @@
   justify-content: center;
   gap: 18px;
   z-index: 2;
+  object-fit: contain;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
