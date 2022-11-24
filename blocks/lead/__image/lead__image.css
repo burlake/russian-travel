@@ -5,7 +5,8 @@
   display: flex;
   z-index: 0;
   color: #ffffff;
-  overflow-x: hidden;
+  background-size: cover;
+  background-position: center;
 }
 
 @media screen and (max-width: 1024px) {
