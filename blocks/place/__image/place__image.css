@@ -1,27 +1,30 @@
 .place__image {
+  margin: 0 auto;
+  max-width: 100%;
   min-height: 460px;
-  max-width: 460px;
-  overflow-x: hidden;
+  background-size: cover;
+  background-position: center;
+
 }
 
 @media screen and (max-width: 1024px) {
   .place__image {
+    max-width: 100%;
     min-height: 440px;
-    max-width: 440px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__image {
+    max-width: 100%;
     min-height: 340px;
-    max-width: 340px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__image {
+    max-width: 100%;
     min-height: 320px;
-    max-width: 320px;
     grid-row: 4;
     grid-column: 1 / span2;
     padding-top: 32px;
