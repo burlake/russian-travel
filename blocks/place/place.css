@@ -10,14 +10,14 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 1024px) {
+@media (min-width: 768) and (max-width: 1024px) {
   .place {
     grid-template-columns: 1fr, minmax(456px, max-content);
     column-gap: 32px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 321)  and (max-width: 768px) {
   .place {
     grid-template-columns: 1fr, minmax(352px, max-content);
     column-gap: 28px;
