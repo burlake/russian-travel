@@ -1,7 +1,7 @@
 .gallery {
   margin: 0 auto;
   padding: 0;
-  min-width: 1184px;
+  max-width: 1185px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
   grid-template-rows: repeat(3, 213px);
