@@ -4,7 +4,6 @@
   grid-template-rows: 615px 14px;
   grid-template-columns: 984px;
   gap: 8px;
-  justify-self: start;
 }
 
 @media screen and (max-width: 1024px) {
