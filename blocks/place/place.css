@@ -1,7 +1,7 @@
 .place {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: min-content, minmax(484px, max-content);
+  grid-template-columns: 1fr, minmax(484px, max-content);
   grid-template-rows: auto auto;
   justify-content: center;
   row-gap: 48px;
@@ -12,14 +12,14 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    grid-template-columns: min-content, minmax(456px, max-content);
+    grid-template-columns: 1fr, minmax(456px, max-content);
     column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    grid-template-columns: min-content, minmax(352px, max-content);
+    grid-template-columns: 1fr, minmax(352px, max-content);
     column-gap: 28px;
   }
 }
