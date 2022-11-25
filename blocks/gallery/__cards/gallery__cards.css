@@ -1,6 +1,11 @@
 .gallery__cards {
   min-height: 213px;
   max-width: 284px;
+  background-size: 100% 100%;
+  background-position: center center;
+  background-origin: border-box;
+  object-fit: contain;
+  box-sizing: border-box;
 }
 
 
