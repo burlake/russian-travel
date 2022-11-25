@@ -2,23 +2,23 @@
   margin: 0 auto;
   max-width: 450px;
   min-height: 460px;
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center center;
   background-origin: border-box;
-  object-fit: contain;
+  object-fit: cover;
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
   .place__image {
-    max-width: 100%;
+    max-width: 440px;
     min-height: 440px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__image {
-    max-width: 100%;
+    max-width: 340px;
     min-height: 340px;
 
   }
