@@ -37,7 +37,6 @@
 
 @media screen and (max-width: 320px) {
   .gallery {
-    justify-content: center;
     min-width: 288px;
     grid-template-columns: repeat(auto-fit, minmax(320px, max-content));;
     grid-template-rows: repeat(12, 216px);
