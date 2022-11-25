@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
   .gallery__cards {
     min-height: 216px;
     max-width: 288px;
