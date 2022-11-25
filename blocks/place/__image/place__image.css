@@ -23,6 +23,7 @@
   .place__image {
     max-width: 440px;
     min-height: 440px;
+    flex-basis: calc(100%-356px-32px);
   }
 }
 
@@ -30,6 +31,7 @@
   .place__image {
     max-width: 340px;
     min-height: 340px;
+
   }
 }
 
