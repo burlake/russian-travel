@@ -2,8 +2,24 @@
   margin: 0 auto;
   max-width: 450px;
   min-height: 460px;
-  background-size: cover;
-  background-position: center;
+
+
+
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  background-origin: border-box;
+  object-fit: contain;
+  box-sizing: border-box;
+
+
+
+
+
+
+
+
 
 }
 
