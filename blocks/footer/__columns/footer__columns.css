@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 768px) {
   .footer__columns {
-    max-width: minmax(720px, max-content));
+    max-width: minmax(720px, max-content);
   }
 }
 
