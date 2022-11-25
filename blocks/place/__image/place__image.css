@@ -22,15 +22,14 @@
 
 @media screen and (max-width: 1024px) {
   .place__image {
-    max-width: 440px;
+    max-width: calc(100% - 356px - 32px);
     min-height: 440px;
-    flex-basis: calc(100%-356px-32px);
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__image {
-    max-width: 340px;
+    max-width: calc(100% - 352px - 28px);
     min-height: 340px;
 
   }
