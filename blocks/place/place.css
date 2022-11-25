@@ -34,6 +34,7 @@
 
 @media screen and (max-width: 320px) {
   .place {
+    margin: 0 auto;
     grid-template-columns: minmax(320px, max-content);
     column-gap: 1px;
     row-gap: 1px;
