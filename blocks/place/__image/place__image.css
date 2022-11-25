@@ -8,6 +8,7 @@
   background-origin: border-box;
   object-fit: contain;
   box-sizing: border-box;
+  flex-basis: calc(100%-40px-484px);
 
 
 
@@ -23,6 +24,7 @@
   .place__image {
     max-width: 440px;
     min-height: 440px;
+    flex-basis: calc(100%-32px-456px);
   }
 }
 
@@ -30,6 +32,7 @@
   .place__image {
     max-width: 340px;
     min-height: 340px;
+    flex-basis: calc(100%-28px-352px);
   }
 }
 
