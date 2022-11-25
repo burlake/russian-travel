@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 768px) {
   .footer__columns {
-    max-width: 720px;
+    max-width: minmax(720px, max-content));
   }
 }
 
@@ -17,3 +17,6 @@
     grid-row-gap: 32px;
   }
 }
+
+
+, 
