@@ -1,24 +1,29 @@
 .place__paragraph {
   margin: 0;
+  display: flex;
   padding: 0;
   max-width: 484px;
+  flex-basis: 484px;
 }
 
 @media screen and (max-width: 1024px) {
   .place__paragraph {
     max-width: 456px;
+    flex-basis: 456px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
     max-width: 352px;
+    flex-basis: 352px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__paragraph {
     max-width: 288px;
+    flex-basis: 288px;
     grid-row: 5;
     grid-column: 1 / span2;
   }
