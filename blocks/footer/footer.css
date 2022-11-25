@@ -19,10 +19,9 @@
   }
 }
 
-@media (mшт-width: 600px) and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .footer {
-    padding-top: 99px;
+    padding-top: 98px;
     padding-left: 16px;
-    flex-direction: column;
   }
 }
