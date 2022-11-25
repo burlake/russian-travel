@@ -20,7 +20,7 @@
 @media (min-width: 321)  and (max-width: 768px) {
   .place {
     grid-template-columns: minmax(340px, max-content), minmax(352px, max-content);
-    column-gap: 28px;
+    column-gap: 30px;
   }
 }
 
