@@ -35,8 +35,8 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 321px) and (max-width: 767px) {
   .lead__title  {
-    font-size: calc(14px + (96 - 40) * ( (100vw - 320px) / ( 768 - 320) ));
+    font-size: calc(40px + (96 - 40) * ( (100vw - 320px) / ( 768 - 320) ));
   }
 }
