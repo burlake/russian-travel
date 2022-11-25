@@ -21,22 +21,22 @@
 
 @media screen and (max-width: 768px) {
   .lead__title{
-    margin-top: 48px;
     max-width: 100%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__title {
-    margin: 0 auto;
     max-width: 100%;
     min-height: 88px;
     line-height: 44px;
     font-size: 40px;
-    font-weight: 900;
-    text-align: center;
-    margin-top: 48px;
-    color: #ffffff;
     padding-bottom: 16px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .lead__title  {
+    font-size: calc(14px + (96 - 40) * ( (100vw - 320px) / ( 768 - 320) ));
   }
 }
