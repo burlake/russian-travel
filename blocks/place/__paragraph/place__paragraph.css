@@ -16,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: px) {
+@media screen and (max-width: 600px) {
   .place__paragraph {
     max-width: 288px;
     grid-row: 5;
