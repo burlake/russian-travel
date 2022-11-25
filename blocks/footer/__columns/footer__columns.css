@@ -10,9 +10,8 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px) {
   .footer__columns {
-    max-width: 720px;
     grid-template-columns: minmax(106px, max-content);
   }
 }
