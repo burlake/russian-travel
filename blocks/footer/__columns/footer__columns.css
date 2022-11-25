@@ -6,7 +6,8 @@
 
 @media screen and (max-width: 768px) {
   .footer__columns {
-    max-width: minmax(720px, max-content);
+    max-width: 720px;
+    grid-template-columns: minmax(106px, max-content);
   }
 }
 
@@ -17,6 +18,3 @@
     grid-row-gap: 32px;
   }
 }
-
-
-, 
