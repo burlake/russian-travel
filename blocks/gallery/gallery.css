@@ -15,6 +15,7 @@
 
 @media screen and (max-width: 1024px) {
   .gallery {
+    max-width: 928px;
     grid-template-columns: repeat(auto-fit, minmax(300px, max-content));;
     grid-template-rows: repeat(4, 225px);
     gap: 14px;
@@ -25,7 +26,7 @@
 
 @media screen and (max-width: 768px) {
   .gallery {
-    min-width: 720px;
+    max-width: 720px;
     grid-template-columns: repeat(auto-fit, minmax(352px, max-content));;
     grid-template-rows: repeat(6, 264px);
     gap: 16px;
@@ -36,7 +37,7 @@
 
 @media screen and (max-width: 320px) {
   .gallery {
-    min-width: 288px;
+    max-width: 288px;
     grid-template-columns: repeat(auto-fit, minmax(320px, max-content));;
     grid-template-rows: repeat(12, 216px);
     gap: 12px;
