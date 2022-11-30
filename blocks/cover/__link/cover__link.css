@@ -2,6 +2,9 @@
   min-height: 740px;
   max-width: 1184px;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
