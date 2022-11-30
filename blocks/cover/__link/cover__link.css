@@ -6,7 +6,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: 1s linear 0.5s;
 }
 
 @media screen and (max-width: 1024px) {
@@ -44,4 +43,5 @@
 
 .cover__link:hover {
   opacity: 0.8;
+  transition: 1s linear 0.5s;
 }
