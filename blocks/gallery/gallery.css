@@ -1,5 +1,6 @@
 .gallery {
   margin: 0 auto; 
+  position: relative;
   padding: 0;
   max-width: 1200px;
   display: grid;
@@ -34,7 +35,6 @@
 
 @media screen and (max-width: 320px) {
   .gallery {
-    margin: 0 auto; 
     max-width: 288px;
     grid-template-columns: repeat(auto-fit, minmax(320px, max-content));
     grid-template-rows: repeat(12, 216px);
