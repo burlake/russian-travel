@@ -2,7 +2,7 @@
   margin: 0 auto;
   padding: 0;
   position: relative;
-  width: 1200px;
+  max-width: 1200px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
   grid-template-rows: repeat(3, 213px);
