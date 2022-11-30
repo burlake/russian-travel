@@ -7,17 +7,10 @@
 
 @media screen and (max-width: 768px) {
   .footer__columns {
+    grid-row-gap: 32px;
     max-width: 720px;
   }
 }
-
-@media screen and (max-width: 760px) {
-  .footer__columns {
-    grid-template-columns: minmax(106px, max-content);
-    grid-row-gap: 32px;
-  }
-}
-
 
 @media screen and (max-width: 320px) {
   .footer__columns {
