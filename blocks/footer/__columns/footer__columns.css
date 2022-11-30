@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   .footer__columns {
     grid-auto-flow: row;
     grid-template-rows: 24px;
