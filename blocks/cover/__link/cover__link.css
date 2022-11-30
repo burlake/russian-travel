@@ -30,7 +30,7 @@
 }
 
 
-.cover__link:hover::after {
+.cover__link:hover:after {
   content: "";
   position: absolute;
   top: 0;
