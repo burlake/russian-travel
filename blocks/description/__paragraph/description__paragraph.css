@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .description__main-text {
+  .description__paragraph {
     margin-left: 48px;
   }
 }
