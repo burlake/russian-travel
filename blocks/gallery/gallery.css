@@ -1,17 +1,13 @@
 .gallery {
+  margin: 0 auto; 
   padding: 0;
   max-width: 1200px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
   grid-template-rows: repeat(3, 213px);
-  justify-self: center;
   justify-content: center;
   gap: 18px;
   z-index: 2;
-
-  background-size: 100% 100%; 
-  background-position: center center; 
-  background-origin: border-box; 
 }
 
 @media screen and (max-width: 1024px) {
