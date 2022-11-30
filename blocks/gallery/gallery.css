@@ -39,5 +39,6 @@
     grid-template-columns: repeat(auto-fit, minmax(320px, max-content));
     grid-template-rows: repeat(12, 216px);
     gap: 12px;
+    justify-content: center;
   }
 }
