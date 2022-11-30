@@ -1,7 +1,7 @@
 .footer__columns {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: minmax(106px, max-content);
+  grid-template-columns: minmax(1fr, max-content);
   gap: 18px;
 }
 
@@ -21,6 +21,7 @@
 
 @media screen and (max-width: 320px) {
   .footer__columns {
+    grid-auto-flow: row;
     grid-template-rows: 24px;
     grid-template-columns: 100%;
   }
