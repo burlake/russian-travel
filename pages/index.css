@@ -16,7 +16,6 @@
 @import url(../blocks/description/__paragraph/description__paragraph.css);
 @import url(../blocks/description/__list/description__list.css);
 @import url(../blocks/description/__list/description__list_bold.css);
-@import url(../blocks/description/__main-text/description__main-text.css);
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__cards/gallery__cards.css);
 @import url(../blocks/place/place.css);
