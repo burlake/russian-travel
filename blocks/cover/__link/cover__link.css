@@ -39,5 +39,5 @@
   left: 0;
   right: 0;
   min-width: 100%;
-  opacity: 0.3;
+  background-color: rgba(42, 44, 48, 0.8);
 }
