@@ -1,7 +1,13 @@
 .footer__columns {
-  display: grid;
-  grid-template-columns: repeat(5, 100%);
-  gap: 18px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 18px;
+  flex-direction: row;
+  last
+}
+
+.footer__columns: last-child {
+padding-right: 0;
 }
 
 @media screen and (max-width: 768px) {
