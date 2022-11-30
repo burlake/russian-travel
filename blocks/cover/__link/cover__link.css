@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgba(42, 44, 48, 0.8);
 }
 
 @media screen and (max-width: 1024px) {
@@ -38,6 +39,5 @@
   left: 0;
   right: 0;
   min-width: 100%;
-  background-color: rgba(42, 44, 48, 0.8);
-  opacity: 0.8;
+  opacity: 0.3;
 }
