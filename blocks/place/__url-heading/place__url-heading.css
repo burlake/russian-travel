@@ -9,6 +9,8 @@
   list-style: none;
   color: #aaaaaa;
   padding-bottom: 12px;
+  text-transform: uppercase;
+
 }
 
 @media screen and (max-width: 320px) {
