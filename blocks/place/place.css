@@ -5,6 +5,7 @@
     grid-template-rows: auto;
     gap: 48px 40px;
   color: #ffffff;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {
