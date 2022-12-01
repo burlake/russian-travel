@@ -8,7 +8,7 @@
   background-size: cover;
   background-position: center;
   object-fit: cover;
-  object-position: center center;
+  object-position: top center;
 }
 
 @media screen and (max-width: 1024px) {
