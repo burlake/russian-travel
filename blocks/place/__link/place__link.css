@@ -17,3 +17,8 @@
     padding-top: 12px;
   }
 }
+
+.place__link:hover{
+  opacity: .5;
+  transition: 1s linear 0.5s;
+}
