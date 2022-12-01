@@ -1,5 +1,5 @@
 .lead__position {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-template-rows: minmax(984px);
 }
