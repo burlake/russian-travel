@@ -7,13 +7,7 @@
   align-items: flex-end;
   position: relative; 
 }
-  
-@media screen and (max-width:768px){
-  .header__lang_links{
-    margin-right: 24px;
-  }
-}
-  
+
 @media screen and (max-width:320px){
   .header__lang_links{
     margin-top: 30px;
