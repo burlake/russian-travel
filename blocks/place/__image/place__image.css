@@ -26,14 +26,12 @@
 @media screen and (max-width: 400px) {
   .place__image {
     max-width: 320px;
+    min-height: 320px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__image {
-    max-width: 320px;
-    min-height: 320px;
-    width: 100%;
     grid-row: 4;
     grid-column: 1 / span2;
     padding-top: 32px;
