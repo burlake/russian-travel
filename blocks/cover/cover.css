@@ -21,6 +21,7 @@
   .cover {
     min-height: 640px;
     max-width: 1024px;
+    margin-top: 82px;
   }
 }
 
