@@ -1,11 +1,11 @@
 .lead__image {
   margin: 0 auto;
-  max-width: calc(16 / 9 * 100%);
+  max-width: 100%;
   min-height: 615px;
   display: flex;
   z-index: 0;
   color: #ffffff;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center center;
 }
 
