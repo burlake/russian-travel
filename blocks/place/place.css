@@ -1,12 +1,6 @@
 .place {
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: minmax(460px, max-content), minmax(484px, max-content);
-  grid-template-rows: auto auto;
-  justify-content: center;
-  row-gap: 48px;
-  column-gap: 40px;
-  grid-auto-flow: column;
+
   color: #ffffff;
 }
 
