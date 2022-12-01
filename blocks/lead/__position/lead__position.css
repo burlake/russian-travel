@@ -1,8 +1,8 @@
 .lead__position {
-  position: relative;
   width: 100%;
-  padding-top: 56.25%;
+  padding: 0;
   margin: 0 auto;
+  aspect-ratio: 16 / 9;
 }
 
 @media screen and (max-width: 768px) {
