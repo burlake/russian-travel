@@ -16,5 +16,6 @@
   
 .header__lang_link:hover{
   text-decoration: underline;
+  opacity: .5;
+  transition: 1s linear 0.5s;
 }
-  
