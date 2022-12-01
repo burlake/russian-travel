@@ -15,11 +15,6 @@
   }
 }
 
-.footer__link:hover {
-  text-decoration: underline;
-}
-
-
 .footer__link:hover{
   opacity: .5;
   transition: 1s linear 0.5s;
