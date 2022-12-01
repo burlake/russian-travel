@@ -29,14 +29,14 @@
 
 @media screen and (max-width: 320px) {
   .cover__title {
-    max-width: 100%;
+    max-width: 288px;
     font-size: 32px;
     line-height: 35px;
     padding-top: 37px;
   }
 }
 
-@media (min-width: 321px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .cover__title  {
     font-size: calc(32px + (72 - 32) * ( (100vw - 321px) / ( 767 - 321) ));
   }
