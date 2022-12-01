@@ -7,6 +7,7 @@
   object-position: center center;
   object-fit: contain;
   box-sizing: border-box;
+  aspect-ratio: 16 / 9;
 }
 
 @media screen and (max-width: 1024px) {
