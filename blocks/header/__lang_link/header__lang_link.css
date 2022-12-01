@@ -21,10 +21,6 @@
     color: #FFFFFF;
   }
 }
-
-.header__lang_link:last-child{
-  padding-left: 18px;
-}
   
 .header__lang_link:hover{
   text-decoration: underline;
