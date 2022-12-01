@@ -3,3 +3,24 @@
   display: grid;
   grid-template-rows: minmax(984px);
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__position {
+    min-height: 580px;
+    grid-template-rows: minmax(928px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__position {
+    min-height: 480px;
+    grid-template-rows: minmax(768px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__position {
+    min-height: 200px;
+    grid-template-rows: minmax(320px);
+  }
+}
