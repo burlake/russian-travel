@@ -6,7 +6,6 @@
   font-size: 96px;
   font-weight: 900;
   text-align: center;
-  margin-top: 58px;
   min-height: 200px;
   color: #ffffff;
   padding-bottom: 32px;
@@ -14,7 +13,6 @@
 
 @media screen and (max-width: 1024px) {
   .lead__title {
-    margin-top: 48px;
     max-width: 720px;
   }
 }
