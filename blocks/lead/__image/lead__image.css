@@ -1,11 +1,11 @@
 .lead__image {
   margin: 0 auto;
   min-height: 615px;
+  width: 100%;
   color: #ffffff;
   object-fit: contain;
   object-position: center center;
   object-fit: contain;
   box-sizing: border-box;
   aspect-ratio: 16 / 9;
-  width: 100%;
 }
