@@ -1,6 +1,7 @@
 .description__title {
   margin-top: 98px;
   margin-left: 148px;
+  margin-bottom: 34px;
   max-width: 690px;
   font-size: 54px;
   font-weight: 900;
@@ -10,7 +11,8 @@
 
 @media screen and (max-width: 1024px) {
   .description__title {
-    margin-left: 48px;
+    margin-top: 94px;
+    margin-bottom: 38px;
   }
 }
 
