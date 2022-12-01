@@ -1,9 +1,10 @@
 .place {
   margin: 0 auto;
+  padding: 0;
   display: grid;
   grid-template-columns: 460px 484px;
-    grid-template-rows: auto;
-    gap: 48px 40px;
+  grid-template-rows: auto;
+  gap: 48px 40px;
   color: #ffffff;
   justify-content: center;
 }
