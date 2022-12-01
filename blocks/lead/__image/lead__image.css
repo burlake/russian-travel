@@ -4,7 +4,7 @@
   color: #ffffff;
   object-fit: contain;
   object-position: center center;
-  object-fit: contain;
+  object-fit: cover;
   box-sizing: border-box;
   aspect-ratio: 16 / 9;
 }
