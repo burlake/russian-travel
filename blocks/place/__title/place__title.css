@@ -1,6 +1,6 @@
 .place__title {
   margin: 0;
-  padding: 91px 0 0 0;
+  padding: 82px 0 0 0;
   max-width: 460px;
   font-size: 72px;
   font-weight: 900;
@@ -31,6 +31,6 @@
     grid-row: 1;
     grid-column: 1/span2;
     padding-left: 16px;
-    padding-top: 48px;
+    padding-top: 42px;
   }
 }
