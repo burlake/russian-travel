@@ -1,26 +1,26 @@
 .lead__position {
   margin: 0 auto;
   display: grid;
-  grid-template-rows: minmax(984px);
+  grid-template-rows: auto-fit (minmax(984px));
 }
 
 @media screen and (max-width: 1024px) {
   .lead__position {
     min-height: 580px;
-    grid-template-rows: minmax(928px);
+    grid-template-rows: auto-fit (minmax(928px));
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__position {
     min-height: 480px;
-    grid-template-rows: minmax(768px);
+    grid-template-rows: auto-fit (minmax(768px));
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__position {
     min-height: 200px;
-    grid-template-rows: minmax(320px);
+    grid-template-rows: auto-fit (minmax(320px));
   }
 }
