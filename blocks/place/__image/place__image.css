@@ -24,7 +24,7 @@
   .place__image {
     grid-row: 4;
     grid-column: 1 / span2;
-    padding-top: 32px;
+    padding-top: 30px;
     padding-bottom: 10px;
   }
 }
