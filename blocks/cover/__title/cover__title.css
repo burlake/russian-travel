@@ -15,16 +15,16 @@
   opacity: 1;
 }
 
+@media screen and (max-width: 767px) {
+  .cover__title  {
+    font-size: calc(32px + (72 - 32) * ( (100vw - 321px) / ( 767 - 321) ));
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover__title {
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .cover__title  {
-    font-size: calc(32px + (72 - 32) * ( (100vw - 321px) / ( 767 - 321) ));
   }
 }
