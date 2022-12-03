@@ -14,3 +14,9 @@
     line-height: 20px;
   }
 }
+
+/*.header__lang-link:hover {
+  text-decoration: underline;
+  opacity: .5;
+  transition: 1s linear 0.5s;
+}*/
