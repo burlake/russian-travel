@@ -1,4 +1,4 @@
-.header__links{
+.header__lang-links{
   margin: 0;
   padding: 0;
   display: grid;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width:320px){
-  .header__links{
+  .header__lang-vlinks{
     align-self: center;
   }
 }
