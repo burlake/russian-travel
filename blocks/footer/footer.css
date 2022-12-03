@@ -10,12 +10,6 @@
     padding-top: 114px;
     padding-right: 24px;
     padding-left: 24px;
-    min-width: ((100% - 69px)/2);
-  }
-}
-
-@media screen and (max-width: 761px) {
-  .footer {
     min-width: calc((100% - 69px)/2);
     flex-direction: column;
   }
