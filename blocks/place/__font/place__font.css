@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 768px) {
   .place__font {
-    line-height: 26.87ppx;
+    line-height: 26.75px;
     font-size: 16px;
   }
 }
