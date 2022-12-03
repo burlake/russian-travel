@@ -1,0 +1,6 @@
+
+.header__lang-link_underline:hover {
+    text-decoration: underline;
+    opacity: .5;
+    transition: 1s linear 0.5s;
+  }
