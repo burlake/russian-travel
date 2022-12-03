@@ -3,7 +3,7 @@
   padding: 0;
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content);
+  grid-template-columns: minmax(1fr, max-content) minmax(1fr, max-content);
   gap: 18px;
   position: relative;
   align-self: end;
