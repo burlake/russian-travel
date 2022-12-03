@@ -7,10 +7,8 @@
   line-height: 12px;
   list-style: none;
   color: #aaaaaa;
-  padding-bottom: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
-
 }
 
 @media screen and (max-width: 604px) {
